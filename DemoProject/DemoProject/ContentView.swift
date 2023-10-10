@@ -22,7 +22,14 @@ struct ContentView: View {
             
             HStack {
                 TextField("name", text: $nameMsg )
+                    .background(Color.white)
+                    .foregroundColor(Color.black)
+                Button("Send") {
+                    
+                }
             }
+            
+            
         }
         .padding(30)
         .foregroundColor(.white)
