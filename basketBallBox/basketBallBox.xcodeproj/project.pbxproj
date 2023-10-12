@@ -7,28 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A86E6312AD6677100063237 /* ex1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A86E6302AD6677100063237 /* ex1.swift */; };
-		5A86E6332AD667C700063237 /* ex2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A86E6322AD667C700063237 /* ex2.swift */; };
-		5A9B7B0D2AD7CD7B00783E44 /* Ex9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B7B0C2AD7CD7B00783E44 /* Ex9.swift */; };
-		5AE04D112AD660AB00082DF7 /* project1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE04D102AD660AB00082DF7 /* project1App.swift */; };
-		5AE04D132AD660AB00082DF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE04D122AD660AB00082DF7 /* ContentView.swift */; };
-		5AE04D152AD660B000082DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE04D142AD660B000082DF7 /* Assets.xcassets */; };
-		5AE04D182AD660B000082DF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE04D172AD660B000082DF7 /* Preview Assets.xcassets */; };
+		5A9B7B402AD7E82200783E44 /* basketBallBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B7B3F2AD7E82200783E44 /* basketBallBoxApp.swift */; };
+		5A9B7B422AD7E82200783E44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B7B412AD7E82200783E44 /* ContentView.swift */; };
+		5A9B7B442AD7E82500783E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9B7B432AD7E82500783E44 /* Assets.xcassets */; };
+		5A9B7B472AD7E82500783E44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9B7B462AD7E82500783E44 /* Preview Assets.xcassets */; };
+		5A9B7B4E2AD7E88700783E44 /* BallAndBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B7B4D2AD7E88700783E44 /* BallAndBox.swift */; };
+		5A9B7B532AD7E98A00783E44 /* Inputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B7B522AD7E98A00783E44 /* Inputer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A86E6302AD6677100063237 /* ex1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex1.swift; sourceTree = "<group>"; };
-		5A86E6322AD667C700063237 /* ex2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex2.swift; sourceTree = "<group>"; };
-		5A9B7B0C2AD7CD7B00783E44 /* Ex9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex9.swift; sourceTree = "<group>"; };
-		5AE04D0D2AD660AB00082DF7 /* project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AE04D102AD660AB00082DF7 /* project1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project1App.swift; sourceTree = "<group>"; };
-		5AE04D122AD660AB00082DF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5AE04D142AD660B000082DF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5AE04D172AD660B000082DF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A9B7B3C2AD7E82200783E44 /* basketBallBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basketBallBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9B7B3F2AD7E82200783E44 /* basketBallBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basketBallBoxApp.swift; sourceTree = "<group>"; };
+		5A9B7B412AD7E82200783E44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5A9B7B432AD7E82500783E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A9B7B462AD7E82500783E44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A9B7B4D2AD7E88700783E44 /* BallAndBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallAndBox.swift; sourceTree = "<group>"; };
+		5A9B7B522AD7E98A00783E44 /* Inputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5AE04D0A2AD660AB00082DF7 /* Frameworks */ = {
+		5A9B7B392AD7E82200783E44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,80 +36,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5AE04D042AD660AB00082DF7 = {
+		5A9B7B332AD7E82200783E44 = {
 			isa = PBXGroup;
 			children = (
-				5AE04D0F2AD660AB00082DF7 /* project1 */,
-				5AE04D0E2AD660AB00082DF7 /* Products */,
+				5A9B7B3E2AD7E82200783E44 /* basketBallBox */,
+				5A9B7B3D2AD7E82200783E44 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5AE04D0E2AD660AB00082DF7 /* Products */ = {
+		5A9B7B3D2AD7E82200783E44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AE04D0D2AD660AB00082DF7 /* project1.app */,
+				5A9B7B3C2AD7E82200783E44 /* basketBallBox.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5AE04D0F2AD660AB00082DF7 /* project1 */ = {
+		5A9B7B3E2AD7E82200783E44 /* basketBallBox */ = {
 			isa = PBXGroup;
 			children = (
-				5AE04D102AD660AB00082DF7 /* project1App.swift */,
-				5AE04D122AD660AB00082DF7 /* ContentView.swift */,
-				5AE04D142AD660B000082DF7 /* Assets.xcassets */,
-				5AE04D162AD660B000082DF7 /* Preview Content */,
-				5A86E6302AD6677100063237 /* ex1.swift */,
-				5A86E6322AD667C700063237 /* ex2.swift */,
-				5A9B7B0C2AD7CD7B00783E44 /* Ex9.swift */,
+				5A9B7B512AD7E92E00783E44 /* controller */,
+				5A9B7B502AD7E92900783E44 /* view */,
+				5A9B7B4F2AD7E92100783E44 /* model */,
+				5A9B7B3F2AD7E82200783E44 /* basketBallBoxApp.swift */,
+				5A9B7B412AD7E82200783E44 /* ContentView.swift */,
+				5A9B7B432AD7E82500783E44 /* Assets.xcassets */,
+				5A9B7B452AD7E82500783E44 /* Preview Content */,
 			);
-			path = project1;
+			path = basketBallBox;
 			sourceTree = "<group>";
 		};
-		5AE04D162AD660B000082DF7 /* Preview Content */ = {
+		5A9B7B452AD7E82500783E44 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5AE04D172AD660B000082DF7 /* Preview Assets.xcassets */,
+				5A9B7B462AD7E82500783E44 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A9B7B4F2AD7E92100783E44 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5A9B7B4D2AD7E88700783E44 /* BallAndBox.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5A9B7B502AD7E92900783E44 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5A9B7B512AD7E92E00783E44 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A9B7B522AD7E98A00783E44 /* Inputer.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AE04D0C2AD660AB00082DF7 /* project1 */ = {
+		5A9B7B3B2AD7E82200783E44 /* basketBallBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AE04D1B2AD660B000082DF7 /* Build configuration list for PBXNativeTarget "project1" */;
+			buildConfigurationList = 5A9B7B4A2AD7E82500783E44 /* Build configuration list for PBXNativeTarget "basketBallBox" */;
 			buildPhases = (
-				5AE04D092AD660AB00082DF7 /* Sources */,
-				5AE04D0A2AD660AB00082DF7 /* Frameworks */,
-				5AE04D0B2AD660AB00082DF7 /* Resources */,
+				5A9B7B382AD7E82200783E44 /* Sources */,
+				5A9B7B392AD7E82200783E44 /* Frameworks */,
+				5A9B7B3A2AD7E82200783E44 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = project1;
-			productName = project1;
-			productReference = 5AE04D0D2AD660AB00082DF7 /* project1.app */;
+			name = basketBallBox;
+			productName = basketBallBox;
+			productReference = 5A9B7B3C2AD7E82200783E44 /* basketBallBox.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5AE04D052AD660AB00082DF7 /* Project object */ = {
+		5A9B7B342AD7E82200783E44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					5AE04D0C2AD660AB00082DF7 = {
+					5A9B7B3B2AD7E82200783E44 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 5AE04D082AD660AB00082DF7 /* Build configuration list for PBXProject "project1" */;
+			buildConfigurationList = 5A9B7B372AD7E82200783E44 /* Build configuration list for PBXProject "basketBallBox" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +140,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 5AE04D042AD660AB00082DF7;
-			productRefGroup = 5AE04D0E2AD660AB00082DF7 /* Products */;
+			mainGroup = 5A9B7B332AD7E82200783E44;
+			productRefGroup = 5A9B7B3D2AD7E82200783E44 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AE04D0C2AD660AB00082DF7 /* project1 */,
+				5A9B7B3B2AD7E82200783E44 /* basketBallBox */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5AE04D0B2AD660AB00082DF7 /* Resources */ = {
+		5A9B7B3A2AD7E82200783E44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE04D182AD660B000082DF7 /* Preview Assets.xcassets in Resources */,
-				5AE04D152AD660B000082DF7 /* Assets.xcassets in Resources */,
+				5A9B7B472AD7E82500783E44 /* Preview Assets.xcassets in Resources */,
+				5A9B7B442AD7E82500783E44 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5AE04D092AD660AB00082DF7 /* Sources */ = {
+		5A9B7B382AD7E82200783E44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE04D132AD660AB00082DF7 /* ContentView.swift in Sources */,
-				5A86E6312AD6677100063237 /* ex1.swift in Sources */,
-				5AE04D112AD660AB00082DF7 /* project1App.swift in Sources */,
-				5A86E6332AD667C700063237 /* ex2.swift in Sources */,
-				5A9B7B0D2AD7CD7B00783E44 /* Ex9.swift in Sources */,
+				5A9B7B4E2AD7E88700783E44 /* BallAndBox.swift in Sources */,
+				5A9B7B422AD7E82200783E44 /* ContentView.swift in Sources */,
+				5A9B7B402AD7E82200783E44 /* basketBallBoxApp.swift in Sources */,
+				5A9B7B532AD7E98A00783E44 /* Inputer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5AE04D192AD660B000082DF7 /* Debug */ = {
+		5A9B7B482AD7E82500783E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		5AE04D1A2AD660B000082DF7 /* Release */ = {
+		5A9B7B492AD7E82500783E44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,14 +296,14 @@
 			};
 			name = Release;
 		};
-		5AE04D1C2AD660B000082DF7 /* Debug */ = {
+		5A9B7B4B2AD7E82500783E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"project1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"basketBallBox/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.minho.project1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minho.basketBallBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,14 +325,14 @@
 			};
 			name = Debug;
 		};
-		5AE04D1D2AD660B000082DF7 /* Release */ = {
+		5A9B7B4C2AD7E82500783E44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"project1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"basketBallBox/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -326,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.minho.project1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minho.basketBallBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,25 +357,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AE04D082AD660AB00082DF7 /* Build configuration list for PBXProject "project1" */ = {
+		5A9B7B372AD7E82200783E44 /* Build configuration list for PBXProject "basketBallBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AE04D192AD660B000082DF7 /* Debug */,
-				5AE04D1A2AD660B000082DF7 /* Release */,
+				5A9B7B482AD7E82500783E44 /* Debug */,
+				5A9B7B492AD7E82500783E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AE04D1B2AD660B000082DF7 /* Build configuration list for PBXNativeTarget "project1" */ = {
+		5A9B7B4A2AD7E82500783E44 /* Build configuration list for PBXNativeTarget "basketBallBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AE04D1C2AD660B000082DF7 /* Debug */,
-				5AE04D1D2AD660B000082DF7 /* Release */,
+				5A9B7B4B2AD7E82500783E44 /* Debug */,
+				5A9B7B4C2AD7E82500783E44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5AE04D052AD660AB00082DF7 /* Project object */;
+	rootObject = 5A9B7B342AD7E82200783E44 /* Project object */;
 }
