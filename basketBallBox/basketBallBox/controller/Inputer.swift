@@ -10,9 +10,9 @@ enum InputError: Error {
 
 import Foundation
 
-func inputBasketBall(_ ball: String) throws -> Int {
+func inputBasketBall(_ ball: String) throws -> BallAndBox {
     if let ballCnt = Int(ball) {
-        return ballCnt
+        return BallAndBox(ball: ballCnt)
     } else {
         throw InputError.invalidInput
     }
