@@ -12,6 +12,9 @@
 		5A8911C62ADE7F650019585F /* Ex3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8911C52ADE7F650019585F /* Ex3.swift */; };
 		5A8911C82ADE814B0019585F /* Ex4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8911C72ADE814B0019585F /* Ex4.swift */; };
 		5A8911CA2ADE82D90019585F /* Ex5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8911C92ADE82D90019585F /* Ex5.swift */; };
+		5AD38A352ADF767E00E3DE8C /* Ex6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD38A342ADF767E00E3DE8C /* Ex6.swift */; };
+		5AD38A372ADF797200E3DE8C /* Ex7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD38A362ADF797200E3DE8C /* Ex7.swift */; };
+		5AD38A392ADF7C3200E3DE8C /* Ex8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD38A382ADF7C3200E3DE8C /* Ex8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +36,9 @@
 		5A8911C52ADE7F650019585F /* Ex3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex3.swift; sourceTree = "<group>"; };
 		5A8911C72ADE814B0019585F /* Ex4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex4.swift; sourceTree = "<group>"; };
 		5A8911C92ADE82D90019585F /* Ex5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex5.swift; sourceTree = "<group>"; };
+		5AD38A342ADF767E00E3DE8C /* Ex6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex6.swift; sourceTree = "<group>"; };
+		5AD38A362ADF797200E3DE8C /* Ex7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex7.swift; sourceTree = "<group>"; };
+		5AD38A382ADF7C3200E3DE8C /* Ex8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 				5A8911C52ADE7F650019585F /* Ex3.swift */,
 				5A8911C72ADE814B0019585F /* Ex4.swift */,
 				5A8911C92ADE82D90019585F /* Ex5.swift */,
+				5AD38A342ADF767E00E3DE8C /* Ex6.swift */,
+				5AD38A362ADF797200E3DE8C /* Ex7.swift */,
+				5AD38A382ADF7C3200E3DE8C /* Ex8.swift */,
 			);
 			path = EnumQuiz;
 			sourceTree = "<group>";
@@ -133,10 +142,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A8911BD2ADE7B220019585F /* main.swift in Sources */,
+				5AD38A392ADF7C3200E3DE8C /* Ex8.swift in Sources */,
 				5A8911C82ADE814B0019585F /* Ex4.swift in Sources */,
+				5AD38A372ADF797200E3DE8C /* Ex7.swift in Sources */,
 				5A8911C42ADE7B5A0019585F /* Ex2.swift in Sources */,
 				5A8911C62ADE7F650019585F /* Ex3.swift in Sources */,
 				5A8911CA2ADE82D90019585F /* Ex5.swift in Sources */,
+				5AD38A352ADF767E00E3DE8C /* Ex6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
