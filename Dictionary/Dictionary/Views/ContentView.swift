@@ -36,7 +36,22 @@ struct ContentView: View {
                 let isDisjoint = set.isDisJoint(setG, setH)
                 print(isDisjoint) // true
 
-            }            
+            }
+            Button("combination") {
+                var result = [[Int]]()
+                let elements = [1, 2, 3, 4]
+                let k = 2
+                set.combinations(elements, k, [], 0, &result)
+                print(result)
+            }
+            Button("subset") {
+                let elements = [1, 2, 3]
+                let allSubsets = set.generateSubsets(elements)
+                
+                for subset in allSubsets {
+                    print(subset)
+                }
+            }
         }
         .padding()
     }

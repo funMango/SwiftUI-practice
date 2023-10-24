@@ -23,4 +23,31 @@ struct MySet {
         let intersect = setA.intersection(setB)
         return intersect.count == 0
     }
+    
+    func combinations(_ elements: [Int], _ k: Int, _ current: [Int] = [], _ startIndex: Int = 0, _ result: inout [[Int]]) {
+        if current.count == k {
+            result.append(current)
+            return
+        }
+
+        for i in startIndex..<elements.count {
+            var newCurrent = current
+            newCurrent.append(elements[i])
+            combinations(elements, k, newCurrent, i + 1, &result)
+        }
+    }
+    
+    func generateSubsets<T>(_ elements: [T]) -> [[T]] {
+        var subsets: [[T]] = [[]]
+
+        for element in elements {
+            let newSubsets = subsets.map { subset -> [T] in
+                var newSubset = subset
+                newSubset.append(element)
+                return newSubset
+            }
+            subsets.append(contentsOf: newSubsets)
+        }
+        return subsets
+    }
 }
