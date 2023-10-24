@@ -36,7 +36,7 @@ struct ContentView: View {
                 let isDisjoint = set.isDisJoint(setG, setH)
                 print(isDisjoint) // true
 
-            }
+            }            
         }
         .padding()
     }

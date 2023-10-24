@@ -21,5 +21,14 @@ struct Dictionary {
         }
     }
     
+    func getMaxScore(_ dic: [String: Int]) -> Int {
+        let maxValue = dic.values.max()
+        
+        if let result = dic.values.map({ $0 }).filter({ $0 == maxValue }).first {
+            return result
+        }
+        return 0
+    }
+    
     
 }
