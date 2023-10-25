@@ -15,12 +15,19 @@ func exeMfrEx6() {
 }
 
 func mostFrequentElement(array: [String]) -> String? {
-    var dic = [String : Int]()
-    
-    array.map({value in
-        dic[value, default: 0] += 1
-    })
-    
-    let maxValue = dic.values.max()
+    var dic = array.reduce(into: [:]) {$0[$1, default: 0]}
+    var maxValue = dic.values.max()
     return dic.filter { $0.value == maxValue }.first?.key ?? nil
 }
+
+//func mostFrequentElement(array: [String]) -> String? {
+//    var dic = [String : Int]()
+//    
+//    array.map({value in
+//        dic[value, default: 0] += 1
+//    })
+//    
+//    let maxValue = dic.values.max()
+//    return dic.filter { $0.value == maxValue }.first?.key ?? nil
+//}
+
