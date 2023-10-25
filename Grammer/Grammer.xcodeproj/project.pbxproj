@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A78EE2F2AE8D37A002A729B /* MfrEx11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE2E2AE8D37A002A729B /* MfrEx11.swift */; };
+		5A78EE312AE8D45E002A729B /* MfrEx12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE302AE8D45E002A729B /* MfrEx12.swift */; };
+		5A78EE332AE8D977002A729B /* MfrEx13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE322AE8D977002A729B /* MfrEx13.swift */; };
+		5A78EE352AE8DD66002A729B /* MfrEx14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE342AE8DD66002A729B /* MfrEx14.swift */; };
+		5A78EE372AE8DEA4002A729B /* MfrEx15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE362AE8DEA4002A729B /* MfrEx15.swift */; };
+		5A78EE392AE8DFC9002A729B /* MfrEx16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE382AE8DFC9002A729B /* MfrEx16.swift */; };
 		5A95985F2AE7911300BA2635 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95985E2AE7911300BA2635 /* main.swift */; };
 		5A9598662AE7911A00BA2635 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9598652AE7911A00BA2635 /* Map.swift */; };
 		5A9598682AE7913A00BA2635 /* Closer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9598672AE7913A00BA2635 /* Closer.swift */; };
@@ -54,6 +60,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A78EE2E2AE8D37A002A729B /* MfrEx11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx11.swift; sourceTree = "<group>"; };
+		5A78EE302AE8D45E002A729B /* MfrEx12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx12.swift; sourceTree = "<group>"; };
+		5A78EE322AE8D977002A729B /* MfrEx13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx13.swift; sourceTree = "<group>"; };
+		5A78EE342AE8DD66002A729B /* MfrEx14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx14.swift; sourceTree = "<group>"; };
+		5A78EE362AE8DEA4002A729B /* MfrEx15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx15.swift; sourceTree = "<group>"; };
+		5A78EE382AE8DFC9002A729B /* MfrEx16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx16.swift; sourceTree = "<group>"; };
 		5A95985B2AE7911300BA2635 /* Grammer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Grammer; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A95985E2AE7911300BA2635 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5A9598652AE7911A00BA2635 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
@@ -191,6 +203,12 @@
 				5ACF9CEE2AE7AB15000950A9 /* MfrEx8.swift */,
 				5ACF9CF02AE7AB75000950A9 /* MfrEx9.swift */,
 				5ACF9CF22AE7AE5F000950A9 /* MfrEx10.swift */,
+				5A78EE2E2AE8D37A002A729B /* MfrEx11.swift */,
+				5A78EE302AE8D45E002A729B /* MfrEx12.swift */,
+				5A78EE322AE8D977002A729B /* MfrEx13.swift */,
+				5A78EE342AE8DD66002A729B /* MfrEx14.swift */,
+				5A78EE362AE8DEA4002A729B /* MfrEx15.swift */,
+				5A78EE382AE8DFC9002A729B /* MfrEx16.swift */,
 			);
 			name = MapFilterReduceEx;
 			sourceTree = "<group>";
@@ -260,6 +278,8 @@
 				5A95986A2AE7915D00BA2635 /* Set.swift in Sources */,
 				5A95986C2AE7917100BA2635 /* Dictionary.swift in Sources */,
 				5A95988D2AE796B300BA2635 /* ErrorEx6+.swift in Sources */,
+				5A78EE352AE8DD66002A729B /* MfrEx14.swift in Sources */,
+				5A78EE312AE8D45E002A729B /* MfrEx12.swift in Sources */,
 				5A9598892AE7966300BA2635 /* ErrorEx2.swift in Sources */,
 				5A9598742AE7927900BA2635 /* Ex2.swift in Sources */,
 				5A9598762AE7929400BA2635 /* Ex3.swift in Sources */,
@@ -272,6 +292,7 @@
 				5ACF9CE52AE7A4C9000950A9 /* MfrEx3.swift in Sources */,
 				5ACF9CEF2AE7AB15000950A9 /* MfrEx8.swift in Sources */,
 				5ACF9CDD2AE79975000950A9 /* Reduce.swift in Sources */,
+				5A78EE2F2AE8D37A002A729B /* MfrEx11.swift in Sources */,
 				5A9598842AE7956700BA2635 /* Rect.swift in Sources */,
 				5A9598782AE792AB00BA2635 /* Ex4.swift in Sources */,
 				5A95987E2AE792DC00BA2635 /* Ex7.swift in Sources */,
@@ -279,11 +300,14 @@
 				5ACF9CED2AE7AAAE000950A9 /* MfrEx7.swift in Sources */,
 				5A9598682AE7913A00BA2635 /* Closer.swift in Sources */,
 				5A95985F2AE7911300BA2635 /* main.swift in Sources */,
+				5A78EE392AE8DFC9002A729B /* MfrEx16.swift in Sources */,
+				5A78EE332AE8D977002A729B /* MfrEx13.swift in Sources */,
 				5A9598902AE7976000BA2635 /* Animals.swift in Sources */,
 				5A9598822AE7955200BA2635 /* Exetension.swift in Sources */,
 				5ACF9CF52AE7B6FB000950A9 /* Capture.swift in Sources */,
 				5A9598922AE797C500BA2635 /* Food.swift in Sources */,
 				5A95987C2AE792CC00BA2635 /* Ex6.swift in Sources */,
+				5A78EE372AE8DEA4002A729B /* MfrEx15.swift in Sources */,
 				5A9598872AE7964600BA2635 /* ErrorEx1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

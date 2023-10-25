@@ -13,5 +13,5 @@ func exeMfrEx9() {
 }
 
 func repeatTwice(array: [String]) -> [String] {
-    return array.map{ $0 + $0 }
+    array.map{ $0 + $0 }
 }
