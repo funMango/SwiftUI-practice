@@ -14,7 +14,7 @@ func exeMfrEx15() {
 }
 
 func uppercase(_ word: String) -> String {
-    return word.map {(char) in
+    word.map {(char) in
         let value = char.isUppercase ? char.lowercased() : char.uppercased()
         return value
     }
