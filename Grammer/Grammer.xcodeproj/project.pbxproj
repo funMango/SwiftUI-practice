@@ -38,6 +38,7 @@
 		5ACF9CEF2AE7AB15000950A9 /* MfrEx8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF9CEE2AE7AB15000950A9 /* MfrEx8.swift */; };
 		5ACF9CF12AE7AB75000950A9 /* MfrEx9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF9CF02AE7AB75000950A9 /* MfrEx9.swift */; };
 		5ACF9CF32AE7AE5F000950A9 /* MfrEx10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF9CF22AE7AE5F000950A9 /* MfrEx10.swift */; };
+		5ACF9CF52AE7B6FB000950A9 /* Capture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF9CF42AE7B6FB000950A9 /* Capture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,7 @@
 		5ACF9CEE2AE7AB15000950A9 /* MfrEx8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx8.swift; sourceTree = "<group>"; };
 		5ACF9CF02AE7AB75000950A9 /* MfrEx9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx9.swift; sourceTree = "<group>"; };
 		5ACF9CF22AE7AE5F000950A9 /* MfrEx10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx10.swift; sourceTree = "<group>"; };
+		5ACF9CF42AE7B6FB000950A9 /* Capture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				5A9598812AE7955200BA2635 /* Exetension.swift */,
 				5A9598832AE7956700BA2635 /* Rect.swift */,
 				5ACF9CDC2AE79975000950A9 /* Reduce.swift */,
+				5ACF9CF42AE7B6FB000950A9 /* Capture.swift */,
 			);
 			path = Grammer;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				5A95985F2AE7911300BA2635 /* main.swift in Sources */,
 				5A9598902AE7976000BA2635 /* Animals.swift in Sources */,
 				5A9598822AE7955200BA2635 /* Exetension.swift in Sources */,
+				5ACF9CF52AE7B6FB000950A9 /* Capture.swift in Sources */,
 				5A9598922AE797C500BA2635 /* Food.swift in Sources */,
 				5A95987C2AE792CC00BA2635 /* Ex6.swift in Sources */,
 				5A9598872AE7964600BA2635 /* ErrorEx1.swift in Sources */,

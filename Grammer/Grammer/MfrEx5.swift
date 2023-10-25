@@ -9,7 +9,8 @@ import Foundation
 
 func exeMfrEx5() {
     let array = ["a", "b", "a", "c", "b", "d"]
-    print(countElements(array: array))
+    print( countElements(array: array) )
+    // print(countElements(array: array))
 }
 
 func countElements(array: [String]) -> [String: Int] {
@@ -20,3 +21,16 @@ func countElements(array: [String]) -> [String: Int] {
     
     return dic
 }
+
+func countElements3(array: [String]) -> [String: Int] {
+    return array.reduce(into: [:]) { (result, element) in
+        result[element, default: 0] += 1
+    }
+}
+
+func countElements2(array: [String]) -> [String: Int] {    
+    return array.reduce(into: [:]){ $0[$1, default: 0] += 1 }
+}
+
+
+

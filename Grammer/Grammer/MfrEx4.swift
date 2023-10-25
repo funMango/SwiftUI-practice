@@ -8,14 +8,18 @@
 import Foundation
 
 func exeMfrEx4() {
-    let array = [40, 20, 30, 10]
+    let array = [10, 20, 30, 40]    
     print(differenceBetweenMaxAndMin(array: array))
 }
 
 func differenceBetweenMaxAndMin(array: [Int]) -> Int {
     let maxMin = [array.max(), array.min()]
-    return array.filter{ maxMin.contains($0) }
+    return abs(array.filter{ maxMin.contains($0) }
         .reduce(0) { result, next in
             abs(result) - next
-        }
+        })
 }
+
+
+
+

@@ -7,5 +7,5 @@
 
 import Foundation
 
-exeMfrEx10()
+exeMfrEx5()
 
