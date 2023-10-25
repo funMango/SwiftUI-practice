@@ -8,11 +8,11 @@
 import Foundation
 
 func exeMfrEx11() {
-    let word = "eiapp"
+    let word = "eiApp"
     let vowelCount = countVowels(word)
     print(vowelCount) // 1
 }
 
 func countVowels(_ word: String) -> Int {
-    return word.filter {"aeiou".contains( $0 )}.count
+    return word.filter {"aeiou".contains( $0.lowercased() )}.count
 }
