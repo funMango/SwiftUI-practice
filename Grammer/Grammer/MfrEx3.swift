@@ -14,5 +14,11 @@ func exeMfrEx3() {
 
 func sumOfKeysWithEvenValues(dictionary: [String: Int]) -> Int {
     return dictionary.values.filter{ $0 % 2 == 0}
-                            .reduce(0, +)
+            .reduce(0, +)
+}
+
+func sumOfKeysWithEvenValue(dictionary: [String: Int]) -> String {
+    return dictionary.filter { $0.value % 2 == 0}
+        .map { $0.key }
+        .joined(separator: "")
 }

@@ -13,7 +13,7 @@ func exeMfrEx2() {
 }
 
 func reverseWithoutVowels(string: String) -> String {
-    let vowel = "aeiou"
+    let vowel = "aeiouAEIOU"
     
     return String(string.filter{ !vowel.contains($0) }
                 .uppercased()

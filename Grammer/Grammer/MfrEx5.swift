@@ -28,7 +28,7 @@ func countElements3(array: [String]) -> [String: Int] {
     }
 }
 
-func countElements2(array: [String]) -> [String: Int] {    
+func countElements2(array: [String]) -> [String: Int] {
     return array.reduce(into: [:]){ $0[$1, default: 0] += 1 }
 }
 
