@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A5B80FF2AE9F3EC00942834 /* OcEx7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B80FE2AE9F3EC00942834 /* OcEx7.swift */; };
+		5A5B81012AE9F63800942834 /* OcEx8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B81002AE9F63800942834 /* OcEx8.swift */; };
 		5A78EE2F2AE8D37A002A729B /* MfrEx11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE2E2AE8D37A002A729B /* MfrEx11.swift */; };
 		5A78EE312AE8D45E002A729B /* MfrEx12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE302AE8D45E002A729B /* MfrEx12.swift */; };
 		5A78EE332AE8D977002A729B /* MfrEx13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE322AE8D977002A729B /* MfrEx13.swift */; };
 		5A78EE352AE8DD66002A729B /* MfrEx14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE342AE8DD66002A729B /* MfrEx14.swift */; };
 		5A78EE372AE8DEA4002A729B /* MfrEx15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE362AE8DEA4002A729B /* MfrEx15.swift */; };
 		5A78EE392AE8DFC9002A729B /* MfrEx16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE382AE8DFC9002A729B /* MfrEx16.swift */; };
+		5A78EE3C2AE9084D002A729B /* OcEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE3B2AE9084C002A729B /* OcEx1.swift */; };
+		5A78EE3E2AE908EC002A729B /* OcEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE3D2AE908EC002A729B /* OcEx2.swift */; };
+		5A78EE402AE90993002A729B /* OcEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE3F2AE90993002A729B /* OcEx3.swift */; };
+		5A78EE422AE90A9F002A729B /* OcEx4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE412AE90A9F002A729B /* OcEx4.swift */; };
+		5A78EE442AE90C4F002A729B /* OcEx5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE432AE90C4F002A729B /* OcEx5.swift */; };
+		5A78EE462AE90CF9002A729B /* OcEx6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE452AE90CF9002A729B /* OcEx6.swift */; };
 		5A95985F2AE7911300BA2635 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95985E2AE7911300BA2635 /* main.swift */; };
 		5A9598662AE7911A00BA2635 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9598652AE7911A00BA2635 /* Map.swift */; };
 		5A9598682AE7913A00BA2635 /* Closer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9598672AE7913A00BA2635 /* Closer.swift */; };
@@ -60,12 +68,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A5B80FE2AE9F3EC00942834 /* OcEx7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx7.swift; sourceTree = "<group>"; };
+		5A5B81002AE9F63800942834 /* OcEx8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx8.swift; sourceTree = "<group>"; };
 		5A78EE2E2AE8D37A002A729B /* MfrEx11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx11.swift; sourceTree = "<group>"; };
 		5A78EE302AE8D45E002A729B /* MfrEx12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx12.swift; sourceTree = "<group>"; };
 		5A78EE322AE8D977002A729B /* MfrEx13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx13.swift; sourceTree = "<group>"; };
 		5A78EE342AE8DD66002A729B /* MfrEx14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx14.swift; sourceTree = "<group>"; };
 		5A78EE362AE8DEA4002A729B /* MfrEx15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx15.swift; sourceTree = "<group>"; };
 		5A78EE382AE8DFC9002A729B /* MfrEx16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx16.swift; sourceTree = "<group>"; };
+		5A78EE3B2AE9084C002A729B /* OcEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx1.swift; sourceTree = "<group>"; };
+		5A78EE3D2AE908EC002A729B /* OcEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx2.swift; sourceTree = "<group>"; };
+		5A78EE3F2AE90993002A729B /* OcEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx3.swift; sourceTree = "<group>"; };
+		5A78EE412AE90A9F002A729B /* OcEx4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx4.swift; sourceTree = "<group>"; };
+		5A78EE432AE90C4F002A729B /* OcEx5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx5.swift; sourceTree = "<group>"; };
+		5A78EE452AE90CF9002A729B /* OcEx6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx6.swift; sourceTree = "<group>"; };
 		5A95985B2AE7911300BA2635 /* Grammer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Grammer; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A95985E2AE7911300BA2635 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5A9598652AE7911A00BA2635 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
@@ -112,6 +128,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A78EE3A2AE90827002A729B /* OptionalChaning */ = {
+			isa = PBXGroup;
+			children = (
+				5A78EE3B2AE9084C002A729B /* OcEx1.swift */,
+				5A78EE3D2AE908EC002A729B /* OcEx2.swift */,
+				5A78EE3F2AE90993002A729B /* OcEx3.swift */,
+				5A78EE412AE90A9F002A729B /* OcEx4.swift */,
+				5A78EE432AE90C4F002A729B /* OcEx5.swift */,
+				5A78EE452AE90CF9002A729B /* OcEx6.swift */,
+				5A5B80FE2AE9F3EC00942834 /* OcEx7.swift */,
+				5A5B81002AE9F63800942834 /* OcEx8.swift */,
+			);
+			name = OptionalChaning;
+			sourceTree = "<group>";
+		};
 		5A9598522AE7911200BA2635 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +162,7 @@
 		5A95985D2AE7911300BA2635 /* Grammer */ = {
 			isa = PBXGroup;
 			children = (
+				5A78EE3A2AE90827002A729B /* OptionalChaning */,
 				5ACF9CDF2AE79EEB000950A9 /* MapFilterReduceEx */,
 				5ACF9CDE2AE79B8B000950A9 /* Closer */,
 				5A95988E2AE7974600BA2635 /* Inheritance */,
@@ -272,7 +304,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ACF9CF12AE7AB75000950A9 /* MfrEx9.swift in Sources */,
+				5A78EE402AE90993002A729B /* OcEx3.swift in Sources */,
 				5ACF9CF32AE7AE5F000950A9 /* MfrEx10.swift in Sources */,
+				5A5B80FF2AE9F3EC00942834 /* OcEx7.swift in Sources */,
 				5ACF9CEB2AE7A8A4000950A9 /* MfrEx6.swift in Sources */,
 				5ACF9CE32AE7A371000950A9 /* MfrEx2.swift in Sources */,
 				5A95986A2AE7915D00BA2635 /* Set.swift in Sources */,
@@ -281,18 +315,22 @@
 				5A78EE352AE8DD66002A729B /* MfrEx14.swift in Sources */,
 				5A78EE312AE8D45E002A729B /* MfrEx12.swift in Sources */,
 				5A9598892AE7966300BA2635 /* ErrorEx2.swift in Sources */,
+				5A78EE462AE90CF9002A729B /* OcEx6.swift in Sources */,
 				5A9598742AE7927900BA2635 /* Ex2.swift in Sources */,
 				5A9598762AE7929400BA2635 /* Ex3.swift in Sources */,
+				5A78EE3C2AE9084D002A729B /* OcEx1.swift in Sources */,
 				5A9598662AE7911A00BA2635 /* Map.swift in Sources */,
 				5ACF9CE12AE79F01000950A9 /* MfrEx1.swift in Sources */,
 				5A95988B2AE7968000BA2635 /* ErrorEx6.swift in Sources */,
 				5ACF9CE72AE7A687000950A9 /* MfrEx4.swift in Sources */,
 				5A9598802AE792EE00BA2635 /* Ex8.swift in Sources */,
+				5A5B81012AE9F63800942834 /* OcEx8.swift in Sources */,
 				5A95987A2AE792C300BA2635 /* Ex5.swift in Sources */,
 				5ACF9CE52AE7A4C9000950A9 /* MfrEx3.swift in Sources */,
 				5ACF9CEF2AE7AB15000950A9 /* MfrEx8.swift in Sources */,
 				5ACF9CDD2AE79975000950A9 /* Reduce.swift in Sources */,
 				5A78EE2F2AE8D37A002A729B /* MfrEx11.swift in Sources */,
+				5A78EE3E2AE908EC002A729B /* OcEx2.swift in Sources */,
 				5A9598842AE7956700BA2635 /* Rect.swift in Sources */,
 				5A9598782AE792AB00BA2635 /* Ex4.swift in Sources */,
 				5A95987E2AE792DC00BA2635 /* Ex7.swift in Sources */,
@@ -301,12 +339,14 @@
 				5A9598682AE7913A00BA2635 /* Closer.swift in Sources */,
 				5A95985F2AE7911300BA2635 /* main.swift in Sources */,
 				5A78EE392AE8DFC9002A729B /* MfrEx16.swift in Sources */,
+				5A78EE422AE90A9F002A729B /* OcEx4.swift in Sources */,
 				5A78EE332AE8D977002A729B /* MfrEx13.swift in Sources */,
 				5A9598902AE7976000BA2635 /* Animals.swift in Sources */,
 				5A9598822AE7955200BA2635 /* Exetension.swift in Sources */,
 				5ACF9CF52AE7B6FB000950A9 /* Capture.swift in Sources */,
 				5A9598922AE797C500BA2635 /* Food.swift in Sources */,
 				5A95987C2AE792CC00BA2635 /* Ex6.swift in Sources */,
+				5A78EE442AE90C4F002A729B /* OcEx5.swift in Sources */,
 				5A78EE372AE8DEA4002A729B /* MfrEx15.swift in Sources */,
 				5A9598872AE7964600BA2635 /* ErrorEx1.swift in Sources */,
 			);
