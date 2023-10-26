@@ -19,6 +19,9 @@
 		5A5BCBA12AEA2FDE000B0F07 /* ObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBA02AEA2FDE000B0F07 /* ObservableView.swift */; };
 		5A5BCBA42AEA30B0000B0F07 /* TimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBA32AEA30B0000B0F07 /* TimerData.swift */; };
 		5A5BCBAA2AEA39E2000B0F07 /* ObservableSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBA92AEA39E2000B0F07 /* ObservableSecondView.swift */; };
+		5A5BCBAD2AEA4759000B0F07 /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBAC2AEA4759000B0F07 /* AppStorageView.swift */; };
+		5A5BCBAF2AEA4768000B0F07 /* SceneStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBAE2AEA4768000B0F07 /* SceneStorageView.swift */; };
+		5A5BCBB12AEA481E000B0F07 /* StorageDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBB02AEA481E000B0F07 /* StorageDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		5A5BCBA02AEA2FDE000B0F07 /* ObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableView.swift; sourceTree = "<group>"; };
 		5A5BCBA32AEA30B0000B0F07 /* TimerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerData.swift; sourceTree = "<group>"; };
 		5A5BCBA92AEA39E2000B0F07 /* ObservableSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableSecondView.swift; sourceTree = "<group>"; };
+		5A5BCBAC2AEA4759000B0F07 /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
+		5A5BCBAE2AEA4768000B0F07 /* SceneStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageView.swift; sourceTree = "<group>"; };
+		5A5BCBB02AEA481E000B0F07 /* StorageDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,7 @@
 		5A5BCB9B2AEA0F70000B0F07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5A5BCBAB2AEA4741000B0F07 /* StorageView */,
 				5A5BCBA62AEA3531000B0F07 /* ObservableView */,
 				5A06A3E32AEA01FD00D52345 /* ContentView.swift */,
 				5A5BCB9C2AEA0F83000B0F07 /* FirstTabView.swift */,
@@ -164,6 +171,16 @@
 				5A5BCBA92AEA39E2000B0F07 /* ObservableSecondView.swift */,
 			);
 			name = ObservableView;
+			sourceTree = "<group>";
+		};
+		5A5BCBAB2AEA4741000B0F07 /* StorageView */ = {
+			isa = PBXGroup;
+			children = (
+				5A5BCBAC2AEA4759000B0F07 /* AppStorageView.swift */,
+				5A5BCBAE2AEA4768000B0F07 /* SceneStorageView.swift */,
+				5A5BCBB02AEA481E000B0F07 /* StorageDemoView.swift */,
+			);
+			name = StorageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,12 +314,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5BCBA12AEA2FDE000B0F07 /* ObservableView.swift in Sources */,
+				5A5BCBAF2AEA4768000B0F07 /* SceneStorageView.swift in Sources */,
+				5A5BCBAD2AEA4759000B0F07 /* AppStorageView.swift in Sources */,
 				5A5BCB9F2AEA1021000B0F07 /* SecondTabView.swift in Sources */,
 				5A06A3E42AEA01FD00D52345 /* ContentView.swift in Sources */,
 				5A5BCBAA2AEA39E2000B0F07 /* ObservableSecondView.swift in Sources */,
 				5A5BCB9D2AEA0F83000B0F07 /* FirstTabView.swift in Sources */,
 				5A06A3E22AEA01FD00D52345 /* LifeCycleDemoApp.swift in Sources */,
 				5A5BCBA42AEA30B0000B0F07 /* TimerData.swift in Sources */,
+				5A5BCBB12AEA481E000B0F07 /* StorageDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
