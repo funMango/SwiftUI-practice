@@ -22,6 +22,11 @@ struct ObservableView: View {
                 Button(action: resetCount) {
                     Text("Reset Counter")
                 }
+                
+                NavigationLink(destination: ObservableSecondView(timerData: timerData)) {
+                    Text("Next Screen")
+                }
+                .padding()
             }
         }
     }
