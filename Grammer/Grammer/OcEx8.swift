@@ -12,7 +12,7 @@ func exeOcEx8() {
                                 Student(name: "Lee", score: 90),
                                 Student(name: "Park", score: 85)]
     
-    print((students?.reduce(into: 0){ $0 += $1.score } ?? 0) / (students?.count ?? 0))
+    print((students?.reduce(into: 0){ $0 += $1.score } ?? 0) / (students?.count ?? 1))
 }
 
 struct Student {
