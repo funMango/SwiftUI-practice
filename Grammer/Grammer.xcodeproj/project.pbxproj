@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5A5B80FF2AE9F3EC00942834 /* OcEx7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B80FE2AE9F3EC00942834 /* OcEx7.swift */; };
 		5A5B81012AE9F63800942834 /* OcEx8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B81002AE9F63800942834 /* OcEx8.swift */; };
+		5A5B81032AE9FA2300942834 /* OcExBonus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B81022AE9FA2300942834 /* OcExBonus.swift */; };
 		5A78EE2F2AE8D37A002A729B /* MfrEx11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE2E2AE8D37A002A729B /* MfrEx11.swift */; };
 		5A78EE312AE8D45E002A729B /* MfrEx12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE302AE8D45E002A729B /* MfrEx12.swift */; };
 		5A78EE332AE8D977002A729B /* MfrEx13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A78EE322AE8D977002A729B /* MfrEx13.swift */; };
@@ -70,6 +71,7 @@
 /* Begin PBXFileReference section */
 		5A5B80FE2AE9F3EC00942834 /* OcEx7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx7.swift; sourceTree = "<group>"; };
 		5A5B81002AE9F63800942834 /* OcEx8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx8.swift; sourceTree = "<group>"; };
+		5A5B81022AE9FA2300942834 /* OcExBonus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcExBonus.swift; sourceTree = "<group>"; };
 		5A78EE2E2AE8D37A002A729B /* MfrEx11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx11.swift; sourceTree = "<group>"; };
 		5A78EE302AE8D45E002A729B /* MfrEx12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx12.swift; sourceTree = "<group>"; };
 		5A78EE322AE8D977002A729B /* MfrEx13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx13.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				5A78EE452AE90CF9002A729B /* OcEx6.swift */,
 				5A5B80FE2AE9F3EC00942834 /* OcEx7.swift */,
 				5A5B81002AE9F63800942834 /* OcEx8.swift */,
+				5A5B81022AE9FA2300942834 /* OcExBonus.swift */,
 			);
 			name = OptionalChaning;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				5A9598742AE7927900BA2635 /* Ex2.swift in Sources */,
 				5A9598762AE7929400BA2635 /* Ex3.swift in Sources */,
 				5A78EE3C2AE9084D002A729B /* OcEx1.swift in Sources */,
+				5A5B81032AE9FA2300942834 /* OcExBonus.swift in Sources */,
 				5A9598662AE7911A00BA2635 /* Map.swift in Sources */,
 				5ACF9CE12AE79F01000950A9 /* MfrEx1.swift in Sources */,
 				5A95988B2AE7968000BA2635 /* ErrorEx6.swift in Sources */,
