@@ -23,12 +23,13 @@ struct ObservableView: View {
                     Text("Reset Counter")
                 }
                 
-                NavigationLink(destination: ObservableSecondView(timerData: timerData)) {
+                NavigationLink(destination: ObservableSecondView()) {
                     Text("Next Screen")
                 }
                 .padding()
             }
         }
+        .environmentObject(timerData)
     }
     
     func resetCount() {

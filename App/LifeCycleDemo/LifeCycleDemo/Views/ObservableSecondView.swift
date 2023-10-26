@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ObservableSecondView: View {
     
-    @StateObject var timerData: TimerData
+    @EnvironmentObject var timerData: TimerData
     
     var body: some View {
         VStack {
@@ -23,5 +23,5 @@ struct ObservableSecondView: View {
 }
 
 #Preview {
-    ObservableSecondView(timerData: TimerData())
+    ObservableSecondView().environmentObject(TimerData())
 }
