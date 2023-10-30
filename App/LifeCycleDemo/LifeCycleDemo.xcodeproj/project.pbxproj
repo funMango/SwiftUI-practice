@@ -32,6 +32,7 @@
 		5AD5B9492AEF840900E83A3E /* AlignEx2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B9482AEF840900E83A3E /* AlignEx2View.swift */; };
 		5AD5B94B2AEF845800E83A3E /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B94A2AEF845800E83A3E /* Buttons.swift */; };
 		5AD5B94E2AEF85FB00E83A3E /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B94D2AEF85FB00E83A3E /* Images.swift */; };
+		5AD5B9512AEF94D200E83A3E /* AlignZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B9502AEF94D200E83A3E /* AlignZStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		5AD5B9482AEF840900E83A3E /* AlignEx2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignEx2View.swift; sourceTree = "<group>"; };
 		5AD5B94A2AEF845800E83A3E /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		5AD5B94D2AEF85FB00E83A3E /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		5AD5B9502AEF94D200E83A3E /* AlignZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignZStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,10 +222,10 @@
 		5AD5B90B2AEF6ACA00E83A3E /* Aligned */ = {
 			isa = PBXGroup;
 			children = (
+				5AD5B94F2AEF94B400E83A3E /* AlignEx */,
 				5AD5B90C2AEF6ADC00E83A3E /* AlignedView.swift */,
 				5AD5B9442AEF760800E83A3E /* CustomAlignView.swift */,
-				5AD5B9462AEF7E8300E83A3E /* AlignEx1View.swift */,
-				5AD5B9482AEF840900E83A3E /* AlignEx2View.swift */,
+				5AD5B9502AEF94D200E83A3E /* AlignZStackView.swift */,
 			);
 			name = Aligned;
 			sourceTree = "<group>";
@@ -235,6 +237,15 @@
 				5AD5B94D2AEF85FB00E83A3E /* Images.swift */,
 			);
 			name = Components;
+			sourceTree = "<group>";
+		};
+		5AD5B94F2AEF94B400E83A3E /* AlignEx */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5B9462AEF7E8300E83A3E /* AlignEx1View.swift */,
+				5AD5B9482AEF840900E83A3E /* AlignEx2View.swift */,
+			);
+			name = AlignEx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +387,7 @@
 				5A5BCB9F2AEA1021000B0F07 /* SecondTabView.swift in Sources */,
 				5A06A3E42AEA01FD00D52345 /* ContentView.swift in Sources */,
 				5A5BCBB62AEA5023000B0F07 /* Color.swift in Sources */,
+				5AD5B9512AEF94D200E83A3E /* AlignZStackView.swift in Sources */,
 				5A5BCBBA2AEA5F19000B0F07 /* UserNameView.swift in Sources */,
 				5AD5B9472AEF7E8300E83A3E /* AlignEx1View.swift in Sources */,
 				5A5BCBAA2AEA39E2000B0F07 /* ObservableSecondView.swift in Sources */,
