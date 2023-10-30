@@ -27,6 +27,11 @@
 		5A5BCBB82AEA5167000B0F07 /* SelectedColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBB72AEA5167000B0F07 /* SelectedColorView.swift */; };
 		5A5BCBBA2AEA5F19000B0F07 /* UserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBB92AEA5F19000B0F07 /* UserNameView.swift */; };
 		5AD5B90D2AEF6ADC00E83A3E /* AlignedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B90C2AEF6ADC00E83A3E /* AlignedView.swift */; };
+		5AD5B9452AEF760800E83A3E /* CustomAlignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B9442AEF760800E83A3E /* CustomAlignView.swift */; };
+		5AD5B9472AEF7E8300E83A3E /* AlignEx1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B9462AEF7E8300E83A3E /* AlignEx1View.swift */; };
+		5AD5B9492AEF840900E83A3E /* AlignEx2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B9482AEF840900E83A3E /* AlignEx2View.swift */; };
+		5AD5B94B2AEF845800E83A3E /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B94A2AEF845800E83A3E /* Buttons.swift */; };
+		5AD5B94E2AEF85FB00E83A3E /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B94D2AEF85FB00E83A3E /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,11 @@
 		5A5BCBB72AEA5167000B0F07 /* SelectedColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedColorView.swift; sourceTree = "<group>"; };
 		5A5BCBB92AEA5F19000B0F07 /* UserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameView.swift; sourceTree = "<group>"; };
 		5AD5B90C2AEF6ADC00E83A3E /* AlignedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignedView.swift; sourceTree = "<group>"; };
+		5AD5B9442AEF760800E83A3E /* CustomAlignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignView.swift; sourceTree = "<group>"; };
+		5AD5B9462AEF7E8300E83A3E /* AlignEx1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignEx1View.swift; sourceTree = "<group>"; };
+		5AD5B9482AEF840900E83A3E /* AlignEx2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignEx2View.swift; sourceTree = "<group>"; };
+		5AD5B94A2AEF845800E83A3E /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		5AD5B94D2AEF85FB00E83A3E /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +167,7 @@
 		5A5BCB9B2AEA0F70000B0F07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5AD5B94C2AEF848D00E83A3E /* Components */,
 				5AD5B90B2AEF6ACA00E83A3E /* Aligned */,
 				5A5BCBB22AEA4D58000B0F07 /* ColorView */,
 				5A5BCBAB2AEA4741000B0F07 /* StorageView */,
@@ -210,8 +221,20 @@
 			isa = PBXGroup;
 			children = (
 				5AD5B90C2AEF6ADC00E83A3E /* AlignedView.swift */,
+				5AD5B9442AEF760800E83A3E /* CustomAlignView.swift */,
+				5AD5B9462AEF7E8300E83A3E /* AlignEx1View.swift */,
+				5AD5B9482AEF840900E83A3E /* AlignEx2View.swift */,
 			);
 			name = Aligned;
+			sourceTree = "<group>";
+		};
+		5AD5B94C2AEF848D00E83A3E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5B94A2AEF845800E83A3E /* Buttons.swift */,
+				5AD5B94D2AEF85FB00E83A3E /* Images.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,7 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD5B9492AEF840900E83A3E /* AlignEx2View.swift in Sources */,
 				5A5BCBA12AEA2FDE000B0F07 /* ObservableView.swift in Sources */,
+				5AD5B9452AEF760800E83A3E /* CustomAlignView.swift in Sources */,
 				5AD5B90D2AEF6ADC00E83A3E /* AlignedView.swift in Sources */,
 				5A5BCBAF2AEA4768000B0F07 /* SceneStorageView.swift in Sources */,
 				5A5BCBAD2AEA4759000B0F07 /* AppStorageView.swift in Sources */,
@@ -352,11 +377,14 @@
 				5A06A3E42AEA01FD00D52345 /* ContentView.swift in Sources */,
 				5A5BCBB62AEA5023000B0F07 /* Color.swift in Sources */,
 				5A5BCBBA2AEA5F19000B0F07 /* UserNameView.swift in Sources */,
+				5AD5B9472AEF7E8300E83A3E /* AlignEx1View.swift in Sources */,
 				5A5BCBAA2AEA39E2000B0F07 /* ObservableSecondView.swift in Sources */,
 				5A5BCB9D2AEA0F83000B0F07 /* FirstTabView.swift in Sources */,
 				5A06A3E22AEA01FD00D52345 /* LifeCycleDemoApp.swift in Sources */,
 				5A5BCBA42AEA30B0000B0F07 /* TimerData.swift in Sources */,
 				5A5BCBB12AEA481E000B0F07 /* StorageDemoView.swift in Sources */,
+				5AD5B94B2AEF845800E83A3E /* Buttons.swift in Sources */,
+				5AD5B94E2AEF85FB00E83A3E /* Images.swift in Sources */,
 				5A5BCBB82AEA5167000B0F07 /* SelectedColorView.swift in Sources */,
 				5A5BCBB42AEA4D75000B0F07 /* SelectColorView.swift in Sources */,
 			);
