@@ -26,6 +26,7 @@
 		5A5BCBB62AEA5023000B0F07 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBB52AEA5023000B0F07 /* Color.swift */; };
 		5A5BCBB82AEA5167000B0F07 /* SelectedColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBB72AEA5167000B0F07 /* SelectedColorView.swift */; };
 		5A5BCBBA2AEA5F19000B0F07 /* UserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBB92AEA5F19000B0F07 /* UserNameView.swift */; };
+		5AD5B90D2AEF6ADC00E83A3E /* AlignedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B90C2AEF6ADC00E83A3E /* AlignedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		5A5BCBB52AEA5023000B0F07 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5A5BCBB72AEA5167000B0F07 /* SelectedColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedColorView.swift; sourceTree = "<group>"; };
 		5A5BCBB92AEA5F19000B0F07 /* UserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameView.swift; sourceTree = "<group>"; };
+		5AD5B90C2AEF6ADC00E83A3E /* AlignedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		5A5BCB9B2AEA0F70000B0F07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5AD5B90B2AEF6ACA00E83A3E /* Aligned */,
 				5A5BCBB22AEA4D58000B0F07 /* ColorView */,
 				5A5BCBAB2AEA4741000B0F07 /* StorageView */,
 				5A5BCBA62AEA3531000B0F07 /* ObservableView */,
@@ -201,6 +204,14 @@
 				5A5BCBB72AEA5167000B0F07 /* SelectedColorView.swift */,
 			);
 			name = ColorView;
+			sourceTree = "<group>";
+		};
+		5AD5B90B2AEF6ACA00E83A3E /* Aligned */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5B90C2AEF6ADC00E83A3E /* AlignedView.swift */,
+			);
+			name = Aligned;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5BCBA12AEA2FDE000B0F07 /* ObservableView.swift in Sources */,
+				5AD5B90D2AEF6ADC00E83A3E /* AlignedView.swift in Sources */,
 				5A5BCBAF2AEA4768000B0F07 /* SceneStorageView.swift in Sources */,
 				5A5BCBAD2AEA4759000B0F07 /* AppStorageView.swift in Sources */,
 				5A5BCB9F2AEA1021000B0F07 /* SecondTabView.swift in Sources */,
