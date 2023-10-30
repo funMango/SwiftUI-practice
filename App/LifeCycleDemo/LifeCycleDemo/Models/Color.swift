@@ -8,7 +8,7 @@
 import SwiftUI
 
 class Colors: ObservableObject {
-    @Published var color : Color?
+    var color : Color?
     
     func getColor() -> Color {
         if let c = color {
