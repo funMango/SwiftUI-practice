@@ -14,6 +14,11 @@
 		5A06A3F32AEA01FF00D52345 /* LifeCycleDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06A3F22AEA01FF00D52345 /* LifeCycleDemoTests.swift */; };
 		5A06A3FD2AEA01FF00D52345 /* LifeCycleDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06A3FC2AEA01FF00D52345 /* LifeCycleDemoUITests.swift */; };
 		5A06A3FF2AEA01FF00D52345 /* LifeCycleDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A06A3FE2AEA01FF00D52345 /* LifeCycleDemoUITestsLaunchTests.swift */; };
+		5A38D72B2AF1DCE9003DAE13 /* ListEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D72A2AF1DCE9003DAE13 /* ListEx1.swift */; };
+		5A38D72D2AF1DE72003DAE13 /* ListEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D72C2AF1DE72003DAE13 /* ListEx2.swift */; };
+		5A38D72F2AF1E185003DAE13 /* ListEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D72E2AF1E185003DAE13 /* ListEx3.swift */; };
+		5A38D7312AF1EB05003DAE13 /* ListEx4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D7302AF1EB05003DAE13 /* ListEx4.swift */; };
+		5A38D7332AF1EEF4003DAE13 /* ListEx5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D7322AF1EEF4003DAE13 /* ListEx5.swift */; };
 		5A5BCB9D2AEA0F83000B0F07 /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCB9C2AEA0F83000B0F07 /* FirstTabView.swift */; };
 		5A5BCB9F2AEA1021000B0F07 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCB9E2AEA1021000B0F07 /* SecondTabView.swift */; };
 		5A5BCBA12AEA2FDE000B0F07 /* ObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBA02AEA2FDE000B0F07 /* ObservableView.swift */; };
@@ -33,6 +38,8 @@
 		5AD5B94B2AEF845800E83A3E /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B94A2AEF845800E83A3E /* Buttons.swift */; };
 		5AD5B94E2AEF85FB00E83A3E /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B94D2AEF85FB00E83A3E /* Images.swift */; };
 		5AD5B9512AEF94D200E83A3E /* AlignZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5B9502AEF94D200E83A3E /* AlignZStackView.swift */; };
+		5AEECA472AEFE49800847F78 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEECA462AEFE49800847F78 /* ListView.swift */; };
+		5AEECA492AEFE61800847F78 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEECA482AEFE61800847F78 /* ToDoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +70,11 @@
 		5A06A3F82AEA01FF00D52345 /* LifeCycleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCycleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A06A3FC2AEA01FF00D52345 /* LifeCycleDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleDemoUITests.swift; sourceTree = "<group>"; };
 		5A06A3FE2AEA01FF00D52345 /* LifeCycleDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A38D72A2AF1DCE9003DAE13 /* ListEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEx1.swift; sourceTree = "<group>"; };
+		5A38D72C2AF1DE72003DAE13 /* ListEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEx2.swift; sourceTree = "<group>"; };
+		5A38D72E2AF1E185003DAE13 /* ListEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEx3.swift; sourceTree = "<group>"; };
+		5A38D7302AF1EB05003DAE13 /* ListEx4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEx4.swift; sourceTree = "<group>"; };
+		5A38D7322AF1EEF4003DAE13 /* ListEx5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEx5.swift; sourceTree = "<group>"; };
 		5A5BCB9C2AEA0F83000B0F07 /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
 		5A5BCB9E2AEA1021000B0F07 /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
 		5A5BCBA02AEA2FDE000B0F07 /* ObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableView.swift; sourceTree = "<group>"; };
@@ -82,6 +94,8 @@
 		5AD5B94A2AEF845800E83A3E /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		5AD5B94D2AEF85FB00E83A3E /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		5AD5B9502AEF94D200E83A3E /* AlignZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignZStackView.swift; sourceTree = "<group>"; };
+		5AEECA462AEFE49800847F78 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		5AEECA482AEFE61800847F78 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,9 +180,22 @@
 			path = LifeCycleDemoUITests;
 			sourceTree = "<group>";
 		};
+		5A38D7292AF1DCD6003DAE13 /* ListEx */ = {
+			isa = PBXGroup;
+			children = (
+				5A38D72A2AF1DCE9003DAE13 /* ListEx1.swift */,
+				5A38D72C2AF1DE72003DAE13 /* ListEx2.swift */,
+				5A38D72E2AF1E185003DAE13 /* ListEx3.swift */,
+				5A38D7302AF1EB05003DAE13 /* ListEx4.swift */,
+				5A38D7322AF1EEF4003DAE13 /* ListEx5.swift */,
+			);
+			name = ListEx;
+			sourceTree = "<group>";
+		};
 		5A5BCB9B2AEA0F70000B0F07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5AEECA452AEFE48200847F78 /* List */,
 				5AD5B94C2AEF848D00E83A3E /* Components */,
 				5AD5B90B2AEF6ACA00E83A3E /* Aligned */,
 				5A5BCBB22AEA4D58000B0F07 /* ColorView */,
@@ -246,6 +273,16 @@
 				5AD5B9482AEF840900E83A3E /* AlignEx2View.swift */,
 			);
 			name = AlignEx;
+			sourceTree = "<group>";
+		};
+		5AEECA452AEFE48200847F78 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				5A38D7292AF1DCD6003DAE13 /* ListEx */,
+				5AEECA462AEFE49800847F78 /* ListView.swift */,
+				5AEECA482AEFE61800847F78 /* ToDoListView.swift */,
+			);
+			name = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,15 +423,22 @@
 				5A5BCBAD2AEA4759000B0F07 /* AppStorageView.swift in Sources */,
 				5A5BCB9F2AEA1021000B0F07 /* SecondTabView.swift in Sources */,
 				5A06A3E42AEA01FD00D52345 /* ContentView.swift in Sources */,
+				5AEECA472AEFE49800847F78 /* ListView.swift in Sources */,
+				5A38D7312AF1EB05003DAE13 /* ListEx4.swift in Sources */,
 				5A5BCBB62AEA5023000B0F07 /* Color.swift in Sources */,
 				5AD5B9512AEF94D200E83A3E /* AlignZStackView.swift in Sources */,
 				5A5BCBBA2AEA5F19000B0F07 /* UserNameView.swift in Sources */,
 				5AD5B9472AEF7E8300E83A3E /* AlignEx1View.swift in Sources */,
+				5AEECA492AEFE61800847F78 /* ToDoListView.swift in Sources */,
 				5A5BCBAA2AEA39E2000B0F07 /* ObservableSecondView.swift in Sources */,
 				5A5BCB9D2AEA0F83000B0F07 /* FirstTabView.swift in Sources */,
+				5A38D72F2AF1E185003DAE13 /* ListEx3.swift in Sources */,
+				5A38D7332AF1EEF4003DAE13 /* ListEx5.swift in Sources */,
 				5A06A3E22AEA01FD00D52345 /* LifeCycleDemoApp.swift in Sources */,
 				5A5BCBA42AEA30B0000B0F07 /* TimerData.swift in Sources */,
+				5A38D72B2AF1DCE9003DAE13 /* ListEx1.swift in Sources */,
 				5A5BCBB12AEA481E000B0F07 /* StorageDemoView.swift in Sources */,
+				5A38D72D2AF1DE72003DAE13 /* ListEx2.swift in Sources */,
 				5AD5B94B2AEF845800E83A3E /* Buttons.swift in Sources */,
 				5AD5B94E2AEF85FB00E83A3E /* Images.swift in Sources */,
 				5A5BCBB82AEA5167000B0F07 /* SelectedColorView.swift in Sources */,

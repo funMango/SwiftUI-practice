@@ -11,7 +11,7 @@ import SwiftUI
 struct LifeCycleDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            AlignEx2View()
+            ToDoListView()
         }
     }
 }
