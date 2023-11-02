@@ -22,7 +22,14 @@ struct ContentView: View {
             }
             .navigationDestination(for: Int.self) { i in
                 CarDetailView(selectedCar: carStore.cars[i])
-            }            
+            }
+            .navigationDestination(for: String.self) { _ in
+                AddNewCarView(carStore: self.carStore)
+            }
+            .navigationBarTitle(Text("EV Cars"))
+            .navigationBarItems(leading: NavigationLink(value: "Add Car") {
+                Text("Add")
+            }, trailing: EditButton())
         }        
         .padding()
     }
