@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CarDetail: View {
+struct CarDetailView: View {
     
     let selectedCar: Car
     
@@ -38,6 +38,6 @@ struct CarDetail: View {
 
 struct CarDetail_Previews: PreviewProvider {
     static var previews: some View {
-        CarDetail(selectedCar: carData[0])
+        CarDetailView(selectedCar: carData[0])
     }
 }

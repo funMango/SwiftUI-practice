@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var carStore : CarStore = CarStore(cars: carData)        
+    @StateObject var carStore : CarStore = CarStore(cars: carData)
+    
     var body: some View {
-        List {
-            ForEach(0..<carStore.cars.count, id: \.self) { i in
-                ListCell(car: carStore.cars[i])
+        NavigationStack {
+            List {
+                ForEach(0..<carStore.cars.count, id: \.self) { i in
+                    NavigationLink(value: i) {
+                        ListCell(car: carStore.cars[i])
+                    }
+                    
+                }
+            }
+            .navigationDestination(for: Int.self) { i in
+                CarDetailView(selectedCar: carStore.cars[i])                
             }
         }
         .padding()
