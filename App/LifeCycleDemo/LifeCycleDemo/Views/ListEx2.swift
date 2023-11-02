@@ -16,7 +16,8 @@ struct ListEx2: View {
             
             List(0..<3, id: \.self) { idx in
                 customSection(name: "Section\(idx + 1)", sectionColor: .black, listColor: .blue)
-            }            
+            }
+            .listStyle( SidebarListStyle() )
         }
     }
 }
@@ -32,6 +33,7 @@ struct customSection: View {
                 ForEach(1...3, id: \.self) { num in
                     ListItem(name: "Row \(num)", color: listColor)
                 }
+                .listRowBackground(Color.gray)
         }
     }
 }

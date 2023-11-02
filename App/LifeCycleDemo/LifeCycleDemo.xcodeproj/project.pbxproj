@@ -19,6 +19,9 @@
 		5A38D72F2AF1E185003DAE13 /* ListEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D72E2AF1E185003DAE13 /* ListEx3.swift */; };
 		5A38D7312AF1EB05003DAE13 /* ListEx4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D7302AF1EB05003DAE13 /* ListEx4.swift */; };
 		5A38D7332AF1EEF4003DAE13 /* ListEx5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D7322AF1EEF4003DAE13 /* ListEx5.swift */; };
+		5A38D7352AF20F21003DAE13 /* ListEx4_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D7342AF20F21003DAE13 /* ListEx4_1.swift */; };
+		5A38D7382AF2282B003DAE13 /* NavEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D7372AF2282B003DAE13 /* NavEx1.swift */; };
+		5A38D73A2AF231D5003DAE13 /* NavEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A38D7392AF231D5003DAE13 /* NavEx2.swift */; };
 		5A5BCB9D2AEA0F83000B0F07 /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCB9C2AEA0F83000B0F07 /* FirstTabView.swift */; };
 		5A5BCB9F2AEA1021000B0F07 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCB9E2AEA1021000B0F07 /* SecondTabView.swift */; };
 		5A5BCBA12AEA2FDE000B0F07 /* ObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BCBA02AEA2FDE000B0F07 /* ObservableView.swift */; };
@@ -75,6 +78,9 @@
 		5A38D72E2AF1E185003DAE13 /* ListEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEx3.swift; sourceTree = "<group>"; };
 		5A38D7302AF1EB05003DAE13 /* ListEx4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEx4.swift; sourceTree = "<group>"; };
 		5A38D7322AF1EEF4003DAE13 /* ListEx5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEx5.swift; sourceTree = "<group>"; };
+		5A38D7342AF20F21003DAE13 /* ListEx4_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEx4_1.swift; sourceTree = "<group>"; };
+		5A38D7372AF2282B003DAE13 /* NavEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavEx1.swift; sourceTree = "<group>"; };
+		5A38D7392AF231D5003DAE13 /* NavEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavEx2.swift; sourceTree = "<group>"; };
 		5A5BCB9C2AEA0F83000B0F07 /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
 		5A5BCB9E2AEA1021000B0F07 /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
 		5A5BCBA02AEA2FDE000B0F07 /* ObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableView.swift; sourceTree = "<group>"; };
@@ -188,13 +194,24 @@
 				5A38D72E2AF1E185003DAE13 /* ListEx3.swift */,
 				5A38D7302AF1EB05003DAE13 /* ListEx4.swift */,
 				5A38D7322AF1EEF4003DAE13 /* ListEx5.swift */,
+				5A38D7342AF20F21003DAE13 /* ListEx4_1.swift */,
 			);
 			name = ListEx;
+			sourceTree = "<group>";
+		};
+		5A38D7362AF22816003DAE13 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5A38D7372AF2282B003DAE13 /* NavEx1.swift */,
+				5A38D7392AF231D5003DAE13 /* NavEx2.swift */,
+			);
+			name = Navigation;
 			sourceTree = "<group>";
 		};
 		5A5BCB9B2AEA0F70000B0F07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5A38D7362AF22816003DAE13 /* Navigation */,
 				5AEECA452AEFE48200847F78 /* List */,
 				5AD5B94C2AEF848D00E83A3E /* Components */,
 				5AD5B90B2AEF6ACA00E83A3E /* Aligned */,
@@ -441,8 +458,11 @@
 				5A38D72D2AF1DE72003DAE13 /* ListEx2.swift in Sources */,
 				5AD5B94B2AEF845800E83A3E /* Buttons.swift in Sources */,
 				5AD5B94E2AEF85FB00E83A3E /* Images.swift in Sources */,
+				5A38D7382AF2282B003DAE13 /* NavEx1.swift in Sources */,
 				5A5BCBB82AEA5167000B0F07 /* SelectedColorView.swift in Sources */,
+				5A38D73A2AF231D5003DAE13 /* NavEx2.swift in Sources */,
 				5A5BCBB42AEA4D75000B0F07 /* SelectColorView.swift in Sources */,
+				5A38D7352AF20F21003DAE13 /* ListEx4_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

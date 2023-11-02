@@ -8,27 +8,37 @@
 import SwiftUI
 
 struct ListEx5: View {
+    
+    struct Item: Identifiable {
+        let id = UUID()
+        let name: String
+    }
+    
+    @State var items = [
+        Item(name: "Swift"),
+        Item(name: "Java"),
+        Item(name: "Python"),
+    ]
+    
+    
     var body: some View {
         VStack {
-            Text("SwiftUI List Quiz")
-                .font(.largeTitle)
-                .padding()
-            List(0...9, id: \.self) { item in
-                HStack {
-                    Text("item \(item + 1)")
-                    
-                    Spacer()
-                    
-                    Button(action: {
-                        
-                    }, label: {
-                        Text("Delete")
-                            .foregroundColor(.red)                        
+            NavigationStack {
+                List() {
+                    ForEach(items) { item in
+                        HStack {
+                            Text(item.name)
+                        }
+                    }
+                    .onDelete(perform: { indexSet in
+                        items.remove(atOffsets: indexSet)
+                    })
+                    .onMove(perform: { indices, newOffset in
+                        items.move(fromOffsets: indices, toOffset: newOffset)
                     })
                 }
-                
-                
-                
+                .navigationTitle("SwiftUI List Quiz")
+                .toolbar{ EditButton() }
             }
         }
     }
