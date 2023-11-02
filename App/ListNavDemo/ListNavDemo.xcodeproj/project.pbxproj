@@ -21,6 +21,7 @@
 		5A3F23C92AF327F1008BE20F /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F23C82AF327F1008BE20F /* CarData.swift */; };
 		5A3F23CB2AF32E32008BE20F /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F23CA2AF32E32008BE20F /* CarStore.swift */; };
 		5A3F23CE2AF33313008BE20F /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F23CD2AF33313008BE20F /* CarDetailView.swift */; };
+		5A3F23D02AF33AB0008BE20F /* AddNewCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F23CF2AF33AB0008BE20F /* AddNewCarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		5A3F23C82AF327F1008BE20F /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
 		5A3F23CA2AF32E32008BE20F /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
 		5A3F23CD2AF33313008BE20F /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
+		5A3F23CF2AF33AB0008BE20F /* AddNewCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				5A3F23922AF32288008BE20F /* ContentView.swift */,
 				5A3F23CD2AF33313008BE20F /* CarDetailView.swift */,
+				5A3F23CF2AF33AB0008BE20F /* AddNewCarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			files = (
 				5A3F23C92AF327F1008BE20F /* CarData.swift in Sources */,
 				5A3F23932AF32288008BE20F /* ContentView.swift in Sources */,
+				5A3F23D02AF33AB0008BE20F /* AddNewCarView.swift in Sources */,
 				5A3F23912AF32288008BE20F /* ListNavDemoApp.swift in Sources */,
 				5A3F23CE2AF33313008BE20F /* CarDetailView.swift in Sources */,
 				5A3F23C72AF327A0008BE20F /* Car.swift in Sources */,

@@ -21,9 +21,9 @@ struct ContentView: View {
                 }
             }
             .navigationDestination(for: Int.self) { i in
-                CarDetailView(selectedCar: carStore.cars[i])                
-            }
-        }
+                CarDetailView(selectedCar: carStore.cars[i])
+            }            
+        }        
         .padding()
     }
 }

@@ -31,7 +31,7 @@ struct CarDetailView: View {
                     Spacer()
                     Image(systemName: selectedCar.isHybrid ? "checkmark.circle" : "xmark.circle")
                 }
-            }
+            }            
         }
     }
 }
