@@ -20,6 +20,7 @@
 		5A3F23C72AF327A0008BE20F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F23C62AF327A0008BE20F /* Car.swift */; };
 		5A3F23C92AF327F1008BE20F /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F23C82AF327F1008BE20F /* CarData.swift */; };
 		5A3F23CB2AF32E32008BE20F /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F23CA2AF32E32008BE20F /* CarStore.swift */; };
+		5A3F23CE2AF33313008BE20F /* CarDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3F23CD2AF33313008BE20F /* CarDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		5A3F23C62AF327A0008BE20F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		5A3F23C82AF327F1008BE20F /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
 		5A3F23CA2AF32E32008BE20F /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
+		5A3F23CD2AF33313008BE20F /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				5A3F23922AF32288008BE20F /* ContentView.swift */,
+				5A3F23CD2AF33313008BE20F /* CarDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				5A3F23C92AF327F1008BE20F /* CarData.swift in Sources */,
 				5A3F23932AF32288008BE20F /* ContentView.swift in Sources */,
 				5A3F23912AF32288008BE20F /* ListNavDemoApp.swift in Sources */,
+				5A3F23CE2AF33313008BE20F /* CarDetail.swift in Sources */,
 				5A3F23C72AF327A0008BE20F /* Car.swift in Sources */,
 				5A3F23CB2AF32E32008BE20F /* CarStore.swift in Sources */,
 			);
