@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var carStore : CarStore = CarStore(cars: carData)
+    @State private var stackPath = NavigationPath()
     
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $stackPath) {
             List {
                 ForEach(0..<carStore.cars.count, id: \.self) { i in
                     NavigationLink(value: i) {
@@ -24,7 +25,7 @@ struct ContentView: View {
                 CarDetailView(selectedCar: carStore.cars[i])
             }
             .navigationDestination(for: String.self) { _ in
-                AddNewCarView(carStore: self.carStore)
+                AddNewCarView(carStore: self.carStore, path: $stackPath)
             }
             .navigationBarTitle(Text("EV Cars"))
             .navigationBarItems(leading: NavigationLink(value: "Add Car") {
@@ -32,12 +33,6 @@ struct ContentView: View {
             }, trailing: EditButton())
         }        
         .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
 
@@ -54,3 +49,11 @@ struct ListCell: View {
         }
     }
 }
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+

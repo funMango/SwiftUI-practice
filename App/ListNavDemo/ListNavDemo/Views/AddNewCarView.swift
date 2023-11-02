@@ -10,6 +10,8 @@ import SwiftUI
 struct AddNewCarView: View {
     
     @StateObject var carStore: CarStore
+    @Binding var path: NavigationPath
+    
     @State private var isHybrid = false
     @State private var name: String = ""
     @State private var description: String = ""
@@ -40,7 +42,9 @@ struct AddNewCarView: View {
         let newCar = Car(id: UUID().uuidString,
                          name: name, description: description,
                          isHybrid: isHybrid, imageName: "tesla_model_3")
+        
         carStore.cars.append(newCar)
+        path.removeLast()
     }
 }
 
@@ -59,8 +63,8 @@ struct DataInput: View {
     }
 }
 
-struct AddNewCarView_Previews: PreviewProvider {
-    static var previews: some View {
-        AddNewCarView(carStore: CarStore(cars: carData))
-    }
-}
+//struct AddNewCarView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        AddNewCarView(carStore: CarStore(cars: carData))
+//    }
+//}
