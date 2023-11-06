@@ -42,6 +42,11 @@
 		5A95988D2AE796B300BA2635 /* ErrorEx6+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95988C2AE796B300BA2635 /* ErrorEx6+.swift */; };
 		5A9598902AE7976000BA2635 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A95988F2AE7976000BA2635 /* Animals.swift */; };
 		5A9598922AE797C500BA2635 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9598912AE797C500BA2635 /* Food.swift */; };
+		5ABF88C52AF8B9CE00DD6EF3 /* ProtocolEx6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF88C42AF8B9CE00DD6EF3 /* ProtocolEx6.swift */; };
+		5ABF88C72AF8BCDE00DD6EF3 /* ProtocolEx7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF88C62AF8BCDE00DD6EF3 /* ProtocolEx7.swift */; };
+		5ABF88C92AF8BE6200DD6EF3 /* ProtocolEx8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF88C82AF8BE6200DD6EF3 /* ProtocolEx8.swift */; };
+		5ABF88CB2AF8BFB200DD6EF3 /* ProtocolEx9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF88CA2AF8BFB100DD6EF3 /* ProtocolEx9.swift */; };
+		5ABF88CD2AF8C21E00DD6EF3 /* ProtocolEx10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF88CC2AF8C21D00DD6EF3 /* ProtocolEx10.swift */; };
 		5ACF9CDD2AE79975000950A9 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF9CDC2AE79975000950A9 /* Reduce.swift */; };
 		5ACF9CE12AE79F01000950A9 /* MfrEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF9CE02AE79F01000950A9 /* MfrEx1.swift */; };
 		5ACF9CE32AE7A371000950A9 /* MfrEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF9CE22AE7A371000950A9 /* MfrEx2.swift */; };
@@ -105,6 +110,11 @@
 		5A95988C2AE796B300BA2635 /* ErrorEx6+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ErrorEx6+.swift"; sourceTree = "<group>"; };
 		5A95988F2AE7976000BA2635 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
 		5A9598912AE797C500BA2635 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		5ABF88C42AF8B9CE00DD6EF3 /* ProtocolEx6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolEx6.swift; sourceTree = "<group>"; };
+		5ABF88C62AF8BCDE00DD6EF3 /* ProtocolEx7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolEx7.swift; sourceTree = "<group>"; };
+		5ABF88C82AF8BE6200DD6EF3 /* ProtocolEx8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolEx8.swift; sourceTree = "<group>"; };
+		5ABF88CA2AF8BFB100DD6EF3 /* ProtocolEx9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolEx9.swift; sourceTree = "<group>"; };
+		5ABF88CC2AF8C21D00DD6EF3 /* ProtocolEx10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolEx10.swift; sourceTree = "<group>"; };
 		5ACF9CDC2AE79975000950A9 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
 		5ACF9CE02AE79F01000950A9 /* MfrEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx1.swift; sourceTree = "<group>"; };
 		5ACF9CE22AE7A371000950A9 /* MfrEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx2.swift; sourceTree = "<group>"; };
@@ -165,6 +175,7 @@
 		5A95985D2AE7911300BA2635 /* Grammer */ = {
 			isa = PBXGroup;
 			children = (
+				5ABF88C32AF8B9AC00DD6EF3 /* Protocol */,
 				5A78EE3A2AE90827002A729B /* OptionalChaning */,
 				5ACF9CDF2AE79EEB000950A9 /* MapFilterReduceEx */,
 				5ACF9CDE2AE79B8B000950A9 /* Closer */,
@@ -215,6 +226,18 @@
 				5A9598912AE797C500BA2635 /* Food.swift */,
 			);
 			name = Inheritance;
+			sourceTree = "<group>";
+		};
+		5ABF88C32AF8B9AC00DD6EF3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				5ABF88C42AF8B9CE00DD6EF3 /* ProtocolEx6.swift */,
+				5ABF88C62AF8BCDE00DD6EF3 /* ProtocolEx7.swift */,
+				5ABF88C82AF8BE6200DD6EF3 /* ProtocolEx8.swift */,
+				5ABF88CA2AF8BFB100DD6EF3 /* ProtocolEx9.swift */,
+				5ABF88CC2AF8C21D00DD6EF3 /* ProtocolEx10.swift */,
+			);
+			name = Protocol;
 			sourceTree = "<group>";
 		};
 		5ACF9CDE2AE79B8B000950A9 /* Closer */ = {
@@ -311,6 +334,7 @@
 				5ACF9CF32AE7AE5F000950A9 /* MfrEx10.swift in Sources */,
 				5A5B80FF2AE9F3EC00942834 /* OcEx7.swift in Sources */,
 				5ACF9CEB2AE7A8A4000950A9 /* MfrEx6.swift in Sources */,
+				5ABF88C72AF8BCDE00DD6EF3 /* ProtocolEx7.swift in Sources */,
 				5ACF9CE32AE7A371000950A9 /* MfrEx2.swift in Sources */,
 				5A95986A2AE7915D00BA2635 /* Set.swift in Sources */,
 				5A95986C2AE7917100BA2635 /* Dictionary.swift in Sources */,
@@ -323,7 +347,9 @@
 				5A9598762AE7929400BA2635 /* Ex3.swift in Sources */,
 				5A78EE3C2AE9084D002A729B /* OcEx1.swift in Sources */,
 				5A5B81032AE9FA2300942834 /* OcExBonus.swift in Sources */,
+				5ABF88C52AF8B9CE00DD6EF3 /* ProtocolEx6.swift in Sources */,
 				5A9598662AE7911A00BA2635 /* Map.swift in Sources */,
+				5ABF88CB2AF8BFB200DD6EF3 /* ProtocolEx9.swift in Sources */,
 				5ACF9CE12AE79F01000950A9 /* MfrEx1.swift in Sources */,
 				5A95988B2AE7968000BA2635 /* ErrorEx6.swift in Sources */,
 				5ACF9CE72AE7A687000950A9 /* MfrEx4.swift in Sources */,
@@ -341,8 +367,10 @@
 				5ACF9CE92AE7A777000950A9 /* MfrEx5.swift in Sources */,
 				5ACF9CED2AE7AAAE000950A9 /* MfrEx7.swift in Sources */,
 				5A9598682AE7913A00BA2635 /* Closer.swift in Sources */,
+				5ABF88C92AF8BE6200DD6EF3 /* ProtocolEx8.swift in Sources */,
 				5A95985F2AE7911300BA2635 /* main.swift in Sources */,
 				5A78EE392AE8DFC9002A729B /* MfrEx16.swift in Sources */,
+				5ABF88CD2AF8C21E00DD6EF3 /* ProtocolEx10.swift in Sources */,
 				5A78EE422AE90A9F002A729B /* OcEx4.swift in Sources */,
 				5A78EE332AE8D977002A729B /* MfrEx13.swift in Sources */,
 				5A9598902AE7976000BA2635 /* Animals.swift in Sources */,
@@ -481,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -490,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

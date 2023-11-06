@@ -7,5 +7,5 @@
 
 import Foundation
 
-exeOcBonus()
+exeProtocolEx10()
 
