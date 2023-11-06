@@ -47,6 +47,9 @@
 		5ABF88C92AF8BE6200DD6EF3 /* ProtocolEx8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF88C82AF8BE6200DD6EF3 /* ProtocolEx8.swift */; };
 		5ABF88CB2AF8BFB200DD6EF3 /* ProtocolEx9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF88CA2AF8BFB100DD6EF3 /* ProtocolEx9.swift */; };
 		5ABF88CD2AF8C21E00DD6EF3 /* ProtocolEx10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF88CC2AF8C21D00DD6EF3 /* ProtocolEx10.swift */; };
+		5ABF88CF2AF8E10200DD6EF3 /* ProtocolEx11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF88CE2AF8E10200DD6EF3 /* ProtocolEx11.swift */; };
+		5ABF88D12AF8E16A00DD6EF3 /* ProtocolEx14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF88D02AF8E16A00DD6EF3 /* ProtocolEx14.swift */; };
+		5ABF88D32AF9146600DD6EF3 /* ProtocolEx14-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF88D22AF9146600DD6EF3 /* ProtocolEx14-1.swift */; };
 		5ACF9CDD2AE79975000950A9 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF9CDC2AE79975000950A9 /* Reduce.swift */; };
 		5ACF9CE12AE79F01000950A9 /* MfrEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF9CE02AE79F01000950A9 /* MfrEx1.swift */; };
 		5ACF9CE32AE7A371000950A9 /* MfrEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACF9CE22AE7A371000950A9 /* MfrEx2.swift */; };
@@ -115,6 +118,9 @@
 		5ABF88C82AF8BE6200DD6EF3 /* ProtocolEx8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolEx8.swift; sourceTree = "<group>"; };
 		5ABF88CA2AF8BFB100DD6EF3 /* ProtocolEx9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolEx9.swift; sourceTree = "<group>"; };
 		5ABF88CC2AF8C21D00DD6EF3 /* ProtocolEx10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolEx10.swift; sourceTree = "<group>"; };
+		5ABF88CE2AF8E10200DD6EF3 /* ProtocolEx11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolEx11.swift; sourceTree = "<group>"; };
+		5ABF88D02AF8E16A00DD6EF3 /* ProtocolEx14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolEx14.swift; sourceTree = "<group>"; };
+		5ABF88D22AF9146600DD6EF3 /* ProtocolEx14-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProtocolEx14-1.swift"; sourceTree = "<group>"; };
 		5ACF9CDC2AE79975000950A9 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
 		5ACF9CE02AE79F01000950A9 /* MfrEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx1.swift; sourceTree = "<group>"; };
 		5ACF9CE22AE7A371000950A9 /* MfrEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MfrEx2.swift; sourceTree = "<group>"; };
@@ -236,6 +242,9 @@
 				5ABF88C82AF8BE6200DD6EF3 /* ProtocolEx8.swift */,
 				5ABF88CA2AF8BFB100DD6EF3 /* ProtocolEx9.swift */,
 				5ABF88CC2AF8C21D00DD6EF3 /* ProtocolEx10.swift */,
+				5ABF88CE2AF8E10200DD6EF3 /* ProtocolEx11.swift */,
+				5ABF88D02AF8E16A00DD6EF3 /* ProtocolEx14.swift */,
+				5ABF88D22AF9146600DD6EF3 /* ProtocolEx14-1.swift */,
 			);
 			name = Protocol;
 			sourceTree = "<group>";
@@ -365,7 +374,9 @@
 				5A9598782AE792AB00BA2635 /* Ex4.swift in Sources */,
 				5A95987E2AE792DC00BA2635 /* Ex7.swift in Sources */,
 				5ACF9CE92AE7A777000950A9 /* MfrEx5.swift in Sources */,
+				5ABF88CF2AF8E10200DD6EF3 /* ProtocolEx11.swift in Sources */,
 				5ACF9CED2AE7AAAE000950A9 /* MfrEx7.swift in Sources */,
+				5ABF88D32AF9146600DD6EF3 /* ProtocolEx14-1.swift in Sources */,
 				5A9598682AE7913A00BA2635 /* Closer.swift in Sources */,
 				5ABF88C92AF8BE6200DD6EF3 /* ProtocolEx8.swift in Sources */,
 				5A95985F2AE7911300BA2635 /* main.swift in Sources */,
@@ -379,6 +390,7 @@
 				5A9598922AE797C500BA2635 /* Food.swift in Sources */,
 				5A95987C2AE792CC00BA2635 /* Ex6.swift in Sources */,
 				5A78EE442AE90C4F002A729B /* OcEx5.swift in Sources */,
+				5ABF88D12AF8E16A00DD6EF3 /* ProtocolEx14.swift in Sources */,
 				5A78EE372AE8DEA4002A729B /* MfrEx15.swift in Sources */,
 				5A9598872AE7964600BA2635 /* ErrorEx1.swift in Sources */,
 			);

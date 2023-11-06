@@ -19,7 +19,7 @@ protocol Colorful {
 }
 
 extension Colorful {
-    func dexcribe() {
+    func describe() {
         print("This is \(color).")
     }
 }
@@ -38,10 +38,6 @@ enum Fruit : Colorful {
         case .cherry:
             return "pink"
         }
-    }
-    
-    func describe() {
-        print("This is \(self.color)")
     }
 }
 

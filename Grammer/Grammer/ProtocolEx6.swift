@@ -26,6 +26,7 @@ class Student2: Person2 {
     }
     
     func introduce() {
+        print("My name is \(name). I am \(age) years old.")
         print("I go to \(school).")
     }
 }
