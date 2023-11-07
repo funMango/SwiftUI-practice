@@ -7,5 +7,5 @@
 
 import Foundation
 
-protocolEx14_1()
+exeGenericEx3()
 

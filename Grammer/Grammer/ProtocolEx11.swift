@@ -48,9 +48,9 @@ enum Bird: Animal3 {
     func makeSound() {
         switch self {
         case .parrot:
-            print("Hello!")
+            print("Hello! \(name)")
         case .sparrow:
-            print("Chirp!")
+            print("Chirp! \(name)")
         }
     }
 }
