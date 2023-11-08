@@ -10,6 +10,15 @@
 		5A4139B42AF9D85A008C4894 /* GenericEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139B32AF9D85A008C4894 /* GenericEx1.swift */; };
 		5A4139B62AF9D998008C4894 /* GenericEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139B52AF9D998008C4894 /* GenericEx2.swift */; };
 		5A4139B82AF9DA47008C4894 /* GenericEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139B72AF9DA47008C4894 /* GenericEx3.swift */; };
+		5A4139BA2AF9F8A1008C4894 /* GenericEx4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139B92AF9F8A1008C4894 /* GenericEx4.swift */; };
+		5A4139BD2AF9FC75008C4894 /* GenericEx5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139BC2AF9FC75008C4894 /* GenericEx5.swift */; };
+		5A4139BF2AF9FD01008C4894 /* GenericEx6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139BE2AF9FD01008C4894 /* GenericEx6.swift */; };
+		5A4139C12AF9FD7C008C4894 /* GenericEx7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139C02AF9FD7C008C4894 /* GenericEx7.swift */; };
+		5A4139C32AF9FE23008C4894 /* GenericEx8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139C22AF9FE23008C4894 /* GenericEx8.swift */; };
+		5A4139C52AF9FF05008C4894 /* GenericEx9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139C42AF9FF05008C4894 /* GenericEx9.swift */; };
+		5A4139C72AF9FFAA008C4894 /* GenericEx10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139C62AF9FFAA008C4894 /* GenericEx10.swift */; };
+		5A4139C92AFA004B008C4894 /* GenericEx11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139C82AFA004B008C4894 /* GenericEx11.swift */; };
+		5A4139CB2AFA00D9008C4894 /* GenericEx12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4139CA2AFA00D9008C4894 /* GenericEx12.swift */; };
 		5A5B80FF2AE9F3EC00942834 /* OcEx7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B80FE2AE9F3EC00942834 /* OcEx7.swift */; };
 		5A5B81012AE9F63800942834 /* OcEx8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B81002AE9F63800942834 /* OcEx8.swift */; };
 		5A5B81032AE9FA2300942834 /* OcExBonus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5B81022AE9FA2300942834 /* OcExBonus.swift */; };
@@ -85,6 +94,15 @@
 		5A4139B32AF9D85A008C4894 /* GenericEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx1.swift; sourceTree = "<group>"; };
 		5A4139B52AF9D998008C4894 /* GenericEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx2.swift; sourceTree = "<group>"; };
 		5A4139B72AF9DA47008C4894 /* GenericEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx3.swift; sourceTree = "<group>"; };
+		5A4139B92AF9F8A1008C4894 /* GenericEx4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx4.swift; sourceTree = "<group>"; };
+		5A4139BC2AF9FC75008C4894 /* GenericEx5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx5.swift; sourceTree = "<group>"; };
+		5A4139BE2AF9FD01008C4894 /* GenericEx6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx6.swift; sourceTree = "<group>"; };
+		5A4139C02AF9FD7C008C4894 /* GenericEx7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx7.swift; sourceTree = "<group>"; };
+		5A4139C22AF9FE23008C4894 /* GenericEx8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx8.swift; sourceTree = "<group>"; };
+		5A4139C42AF9FF05008C4894 /* GenericEx9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx9.swift; sourceTree = "<group>"; };
+		5A4139C62AF9FFAA008C4894 /* GenericEx10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx10.swift; sourceTree = "<group>"; };
+		5A4139C82AFA004B008C4894 /* GenericEx11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx11.swift; sourceTree = "<group>"; };
+		5A4139CA2AFA00D9008C4894 /* GenericEx12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericEx12.swift; sourceTree = "<group>"; };
 		5A5B80FE2AE9F3EC00942834 /* OcEx7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx7.swift; sourceTree = "<group>"; };
 		5A5B81002AE9F63800942834 /* OcEx8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcEx8.swift; sourceTree = "<group>"; };
 		5A5B81022AE9FA2300942834 /* OcExBonus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcExBonus.swift; sourceTree = "<group>"; };
@@ -162,6 +180,15 @@
 				5A4139B32AF9D85A008C4894 /* GenericEx1.swift */,
 				5A4139B52AF9D998008C4894 /* GenericEx2.swift */,
 				5A4139B72AF9DA47008C4894 /* GenericEx3.swift */,
+				5A4139B92AF9F8A1008C4894 /* GenericEx4.swift */,
+				5A4139BC2AF9FC75008C4894 /* GenericEx5.swift */,
+				5A4139BE2AF9FD01008C4894 /* GenericEx6.swift */,
+				5A4139C02AF9FD7C008C4894 /* GenericEx7.swift */,
+				5A4139C22AF9FE23008C4894 /* GenericEx8.swift */,
+				5A4139C42AF9FF05008C4894 /* GenericEx9.swift */,
+				5A4139C62AF9FFAA008C4894 /* GenericEx10.swift */,
+				5A4139C82AFA004B008C4894 /* GenericEx11.swift */,
+				5A4139CA2AFA00D9008C4894 /* GenericEx12.swift */,
 			);
 			name = Generic;
 			sourceTree = "<group>";
@@ -369,10 +396,12 @@
 				5ABF88C72AF8BCDE00DD6EF3 /* ProtocolEx7.swift in Sources */,
 				5ABF88D72AF9268F00DD6EF3 /* ProtocolEx13.swift in Sources */,
 				5ACF9CE32AE7A371000950A9 /* MfrEx2.swift in Sources */,
+				5A4139CB2AFA00D9008C4894 /* GenericEx12.swift in Sources */,
 				5A95986A2AE7915D00BA2635 /* Set.swift in Sources */,
 				5A95986C2AE7917100BA2635 /* Dictionary.swift in Sources */,
 				5A95988D2AE796B300BA2635 /* ErrorEx6+.swift in Sources */,
 				5A78EE352AE8DD66002A729B /* MfrEx14.swift in Sources */,
+				5A4139C92AFA004B008C4894 /* GenericEx11.swift in Sources */,
 				5A78EE312AE8D45E002A729B /* MfrEx12.swift in Sources */,
 				5A9598892AE7966300BA2635 /* ErrorEx2.swift in Sources */,
 				5A4139B42AF9D85A008C4894 /* GenericEx1.swift in Sources */,
@@ -382,12 +411,14 @@
 				5A78EE3C2AE9084D002A729B /* OcEx1.swift in Sources */,
 				5A5B81032AE9FA2300942834 /* OcExBonus.swift in Sources */,
 				5ABF88C52AF8B9CE00DD6EF3 /* ProtocolEx6.swift in Sources */,
+				5A4139BF2AF9FD01008C4894 /* GenericEx6.swift in Sources */,
 				5A9598662AE7911A00BA2635 /* Map.swift in Sources */,
 				5ABF88CB2AF8BFB200DD6EF3 /* ProtocolEx9.swift in Sources */,
 				5ACF9CE12AE79F01000950A9 /* MfrEx1.swift in Sources */,
 				5A4139B82AF9DA47008C4894 /* GenericEx3.swift in Sources */,
 				5A95988B2AE7968000BA2635 /* ErrorEx6.swift in Sources */,
 				5ACF9CE72AE7A687000950A9 /* MfrEx4.swift in Sources */,
+				5A4139C12AF9FD7C008C4894 /* GenericEx7.swift in Sources */,
 				5A9598802AE792EE00BA2635 /* Ex8.swift in Sources */,
 				5A5B81012AE9F63800942834 /* OcEx8.swift in Sources */,
 				5A95987A2AE792C300BA2635 /* Ex5.swift in Sources */,
@@ -397,6 +428,8 @@
 				5A4139B62AF9D998008C4894 /* GenericEx2.swift in Sources */,
 				5A78EE2F2AE8D37A002A729B /* MfrEx11.swift in Sources */,
 				5ABF88D52AF924E000DD6EF3 /* ProtocolEx12.swift in Sources */,
+				5A4139C52AF9FF05008C4894 /* GenericEx9.swift in Sources */,
+				5A4139BA2AF9F8A1008C4894 /* GenericEx4.swift in Sources */,
 				5A78EE3E2AE908EC002A729B /* OcEx2.swift in Sources */,
 				5A9598842AE7956700BA2635 /* Rect.swift in Sources */,
 				5A9598782AE792AB00BA2635 /* Ex4.swift in Sources */,
@@ -406,8 +439,10 @@
 				5ACF9CED2AE7AAAE000950A9 /* MfrEx7.swift in Sources */,
 				5ABF88D32AF9146600DD6EF3 /* ProtocolEx14-1.swift in Sources */,
 				5A9598682AE7913A00BA2635 /* Closer.swift in Sources */,
+				5A4139C32AF9FE23008C4894 /* GenericEx8.swift in Sources */,
 				5ABF88C92AF8BE6200DD6EF3 /* ProtocolEx8.swift in Sources */,
 				5A95985F2AE7911300BA2635 /* main.swift in Sources */,
+				5A4139BD2AF9FC75008C4894 /* GenericEx5.swift in Sources */,
 				5A78EE392AE8DFC9002A729B /* MfrEx16.swift in Sources */,
 				5ABF88CD2AF8C21E00DD6EF3 /* ProtocolEx10.swift in Sources */,
 				5A78EE422AE90A9F002A729B /* OcEx4.swift in Sources */,
@@ -421,6 +456,7 @@
 				5ABF88D12AF8E16A00DD6EF3 /* ProtocolEx14.swift in Sources */,
 				5A78EE372AE8DEA4002A729B /* MfrEx15.swift in Sources */,
 				5A9598872AE7964600BA2635 /* ErrorEx1.swift in Sources */,
+				5A4139C72AF9FFAA008C4894 /* GenericEx10.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
