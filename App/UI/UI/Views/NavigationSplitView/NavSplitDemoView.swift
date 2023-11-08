@@ -63,8 +63,8 @@ struct NavSplitDemoView: View {
     }
 }
 
-struct NavSplitDemoView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavSplitDemoView()
-    }
-}
+//struct NavSplitDemoView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        NavSplitDemoView()
+//    }
+//}

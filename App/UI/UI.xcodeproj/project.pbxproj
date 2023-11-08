@@ -17,6 +17,10 @@
 		5ABE92382AFB152A00FED5D2 /* NavSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92372AFB152A00FED5D2 /* NavSplitView.swift */; };
 		5ABE923A2AFB1A9E00FED5D2 /* NavSplitDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92392AFB1A9E00FED5D2 /* NavSplitDemoView.swift */; };
 		5ABE923D2AFB1AE000FED5D2 /* IconCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE923C2AFB1AE000FED5D2 /* IconCategory.swift */; };
+		5ABE92402AFB246300FED5D2 /* NavSplitEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE923F2AFB246300FED5D2 /* NavSplitEx1.swift */; };
+		5ABE92442AFB265C00FED5D2 /* NavSplitEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92432AFB265C00FED5D2 /* NavSplitEx2.swift */; };
+		5ABE92462AFB2A1A00FED5D2 /* NavSplitEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92452AFB2A1A00FED5D2 /* NavSplitEx3.swift */; };
+		5ABE924F2AFB625800FED5D2 /* OutlineGroupEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE924E2AFB625800FED5D2 /* OutlineGroupEx1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		5ABE92372AFB152A00FED5D2 /* NavSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSplitView.swift; sourceTree = "<group>"; };
 		5ABE92392AFB1A9E00FED5D2 /* NavSplitDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSplitDemoView.swift; sourceTree = "<group>"; };
 		5ABE923C2AFB1AE000FED5D2 /* IconCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCategory.swift; sourceTree = "<group>"; };
+		5ABE923F2AFB246300FED5D2 /* NavSplitEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSplitEx1.swift; sourceTree = "<group>"; };
+		5ABE92432AFB265C00FED5D2 /* NavSplitEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSplitEx2.swift; sourceTree = "<group>"; };
+		5ABE92452AFB2A1A00FED5D2 /* NavSplitEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSplitEx3.swift; sourceTree = "<group>"; };
+		5ABE924E2AFB625800FED5D2 /* OutlineGroupEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupEx1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +146,8 @@
 		5ABE92342AFB127B00FED5D2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5ABE92372AFB152A00FED5D2 /* NavSplitView.swift */,
-				5ABE92392AFB1A9E00FED5D2 /* NavSplitDemoView.swift */,
+				5ABE924D2AFB621600FED5D2 /* OutlineGroup */,
+				5ABE923E2AFB244100FED5D2 /* NavigationSplitView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +158,26 @@
 				5ABE923C2AFB1AE000FED5D2 /* IconCategory.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5ABE923E2AFB244100FED5D2 /* NavigationSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE92392AFB1A9E00FED5D2 /* NavSplitDemoView.swift */,
+				5ABE92372AFB152A00FED5D2 /* NavSplitView.swift */,
+				5ABE923F2AFB246300FED5D2 /* NavSplitEx1.swift */,
+				5ABE92432AFB265C00FED5D2 /* NavSplitEx2.swift */,
+				5ABE92452AFB2A1A00FED5D2 /* NavSplitEx3.swift */,
+			);
+			path = NavigationSplitView;
+			sourceTree = "<group>";
+		};
+		5ABE924D2AFB621600FED5D2 /* OutlineGroup */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE924E2AFB625800FED5D2 /* OutlineGroupEx1.swift */,
+			);
+			path = OutlineGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +311,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ABE920D2AFB126000FED5D2 /* ContentView.swift in Sources */,
+				5ABE92402AFB246300FED5D2 /* NavSplitEx1.swift in Sources */,
 				5ABE92382AFB152A00FED5D2 /* NavSplitView.swift in Sources */,
 				5ABE923A2AFB1A9E00FED5D2 /* NavSplitDemoView.swift in Sources */,
+				5ABE92442AFB265C00FED5D2 /* NavSplitEx2.swift in Sources */,
+				5ABE92462AFB2A1A00FED5D2 /* NavSplitEx3.swift in Sources */,
+				5ABE924F2AFB625800FED5D2 /* OutlineGroupEx1.swift in Sources */,
 				5ABE923D2AFB1AE000FED5D2 /* IconCategory.swift in Sources */,
 				5ABE920B2AFB126000FED5D2 /* UIApp.swift in Sources */,
 			);
