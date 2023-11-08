@@ -21,6 +21,7 @@
 		5ABE92442AFB265C00FED5D2 /* NavSplitEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92432AFB265C00FED5D2 /* NavSplitEx2.swift */; };
 		5ABE92462AFB2A1A00FED5D2 /* NavSplitEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92452AFB2A1A00FED5D2 /* NavSplitEx3.swift */; };
 		5ABE924F2AFB625800FED5D2 /* OutlineGroupEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE924E2AFB625800FED5D2 /* OutlineGroupEx1.swift */; };
+		5ABE92512AFB651E00FED5D2 /* OutlineGroupEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92502AFB651E00FED5D2 /* OutlineGroupEx2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		5ABE92432AFB265C00FED5D2 /* NavSplitEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSplitEx2.swift; sourceTree = "<group>"; };
 		5ABE92452AFB2A1A00FED5D2 /* NavSplitEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSplitEx3.swift; sourceTree = "<group>"; };
 		5ABE924E2AFB625800FED5D2 /* OutlineGroupEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupEx1.swift; sourceTree = "<group>"; };
+		5ABE92502AFB651E00FED5D2 /* OutlineGroupEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupEx2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				5ABE924E2AFB625800FED5D2 /* OutlineGroupEx1.swift */,
+				5ABE92502AFB651E00FED5D2 /* OutlineGroupEx2.swift */,
 			);
 			path = OutlineGroup;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				5ABE92462AFB2A1A00FED5D2 /* NavSplitEx3.swift in Sources */,
 				5ABE924F2AFB625800FED5D2 /* OutlineGroupEx1.swift in Sources */,
 				5ABE923D2AFB1AE000FED5D2 /* IconCategory.swift in Sources */,
+				5ABE92512AFB651E00FED5D2 /* OutlineGroupEx2.swift in Sources */,
 				5ABE920B2AFB126000FED5D2 /* UIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
