@@ -48,7 +48,14 @@ struct NavSplitDemoView: View {
                 Text("Select a category")
             }
         } detail: {
-            
+            if let selectedImage {
+                Image(systemName: selectedImage)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding()
+            } else {
+                Text("Select an image")
+            }
         }
     }
 }
