@@ -29,12 +29,14 @@ struct NavSplitDemoView: View {
     ]
     @State private var selectedCategory: IconCategory?
     @State private var selectedImage: String?
+    @State private var columVisibility = NavigationSplitViewVisibility.all
     
     var body: some View {
-        NavigationSplitView {
+        NavigationSplitView(columnVisibility: $columVisibility) {
             List(categories, selection: $selectedCategory) { category in
                 Text(category.categoryName).tag(category)
             }
+            
         } content: {
             if let selectedCategory {
                 List(selectedCategory.images, id: \.self,
@@ -57,6 +59,7 @@ struct NavSplitDemoView: View {
                 Text("Select an image")
             }
         }
+        .navigationSplitViewStyle(.balanced)
     }
 }
 
