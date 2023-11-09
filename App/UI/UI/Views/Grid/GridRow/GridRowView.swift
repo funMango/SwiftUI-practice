@@ -9,7 +9,30 @@ import SwiftUI
 
 struct GridRowView: View {
     var body: some View {
-        Grid(horizontalSpacing: 30, verticalSpacing: 10) {
+        Grid(alignment: .topLeading) {
+            GridRow(alignment: .bottom) {
+                CellContent(index: 0, color: .orange)
+                Image(systemName: "record.circle.fill")
+                    .gridColumnAlignment(.trailing)
+                Image(systemName: "record.circle.fill")
+                    .gridCellAnchor(.center)
+                Image(systemName: "record.circle.fill")
+                    .gridCellAnchor(.top)
+                CellContent(index: 0, color: .yellow)
+                
+            }
+            .font(.largeTitle)
+            
+            GridRow {
+                CellContent(index: 0, color: .orange)
+                Image(systemName: "record.circle.fill")
+                Image(systemName: "record.circle.fill")
+                Image(systemName: "record.circle.fill")
+                CellContent(index: 0, color: .yellow)
+                
+            }
+            .font(.largeTitle)
+            
             GridRow {
                 ForEach(1...5, id: \.self) { index in
                     if (index % 2 == 1) {
@@ -42,7 +65,7 @@ struct GridRowView: View {
                     .gridCellColumns(2)
             }
         }
-        .padding(30)
+        .padding(40)
     }
 }
 
