@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A9B7ED92AFC6C2F00914863 /* GridRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B7ED82AFC6C2F00914863 /* GridRowView.swift */; };
 		5ABE920B2AFB126000FED5D2 /* UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE920A2AFB126000FED5D2 /* UIApp.swift */; };
 		5ABE920D2AFB126000FED5D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE920C2AFB126000FED5D2 /* ContentView.swift */; };
 		5ABE920F2AFB126100FED5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABE920E2AFB126100FED5D2 /* Assets.xcassets */; };
@@ -22,7 +23,7 @@
 		5ABE92462AFB2A1A00FED5D2 /* NavSplitEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92452AFB2A1A00FED5D2 /* NavSplitEx3.swift */; };
 		5ABE924F2AFB625800FED5D2 /* OutlineGroupEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE924E2AFB625800FED5D2 /* OutlineGroupEx1.swift */; };
 		5ABE92512AFB651E00FED5D2 /* OutlineGroupEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92502AFB651E00FED5D2 /* OutlineGroupEx2.swift */; };
-		5ABE92542AFB728D00FED5D2 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92532AFB728D00FED5D2 /* Grid.swift */; };
+		5ABE92542AFB728D00FED5D2 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92532AFB728D00FED5D2 /* GridView.swift */; };
 		5ABE92562AFB7FE300FED5D2 /* GridEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABE92552AFB7FE300FED5D2 /* GridEx1.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A9B7ED82AFC6C2F00914863 /* GridRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRowView.swift; sourceTree = "<group>"; };
 		5ABE92072AFB126000FED5D2 /* UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABE920A2AFB126000FED5D2 /* UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApp.swift; sourceTree = "<group>"; };
 		5ABE920C2AFB126000FED5D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,7 +64,7 @@
 		5ABE92452AFB2A1A00FED5D2 /* NavSplitEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSplitEx3.swift; sourceTree = "<group>"; };
 		5ABE924E2AFB625800FED5D2 /* OutlineGroupEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupEx1.swift; sourceTree = "<group>"; };
 		5ABE92502AFB651E00FED5D2 /* OutlineGroupEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupEx2.swift; sourceTree = "<group>"; };
-		5ABE92532AFB728D00FED5D2 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		5ABE92532AFB728D00FED5D2 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		5ABE92552AFB7FE300FED5D2 /* GridEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridEx1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A9B7ED52AFC68BA00914863 /* GridRow */ = {
+			isa = PBXGroup;
+			children = (
+				5A9B7ED82AFC6C2F00914863 /* GridRowView.swift */,
+			);
+			path = GridRow;
+			sourceTree = "<group>";
+		};
 		5ABE91FE2AFB126000FED5D2 = {
 			isa = PBXGroup;
 			children = (
@@ -191,7 +201,8 @@
 		5ABE92522AFB727800FED5D2 /* Grid */ = {
 			isa = PBXGroup;
 			children = (
-				5ABE92532AFB728D00FED5D2 /* Grid.swift */,
+				5A9B7ED52AFC68BA00914863 /* GridRow */,
+				5ABE92532AFB728D00FED5D2 /* GridView.swift */,
 				5ABE92552AFB7FE300FED5D2 /* GridEx1.swift */,
 			);
 			path = Grid;
@@ -332,11 +343,12 @@
 				5ABE92382AFB152A00FED5D2 /* NavSplitView.swift in Sources */,
 				5ABE923A2AFB1A9E00FED5D2 /* NavSplitDemoView.swift in Sources */,
 				5ABE92562AFB7FE300FED5D2 /* GridEx1.swift in Sources */,
-				5ABE92542AFB728D00FED5D2 /* Grid.swift in Sources */,
+				5ABE92542AFB728D00FED5D2 /* GridView.swift in Sources */,
 				5ABE92442AFB265C00FED5D2 /* NavSplitEx2.swift in Sources */,
 				5ABE92462AFB2A1A00FED5D2 /* NavSplitEx3.swift in Sources */,
 				5ABE924F2AFB625800FED5D2 /* OutlineGroupEx1.swift in Sources */,
 				5ABE923D2AFB1AE000FED5D2 /* IconCategory.swift in Sources */,
+				5A9B7ED92AFC6C2F00914863 /* GridRowView.swift in Sources */,
 				5ABE92512AFB651E00FED5D2 /* OutlineGroupEx2.swift in Sources */,
 				5ABE920B2AFB126000FED5D2 /* UIApp.swift in Sources */,
 			);

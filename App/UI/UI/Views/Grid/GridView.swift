@@ -13,14 +13,14 @@ struct CellContent: View {
     
     var body: some View {
         Text("\(index)")
-            .frame(minWidth: 75, minHeight: 50, maxHeight: .infinity)
+            .frame(minWidth: 50, maxWidth: .infinity, minHeight: 100)
             .background(color)
             .cornerRadius(8)
             .font(.system(.largeTitle))
     }
 }
 
-struct Grid: View {
+struct GridView: View {
     private var colors: [Color] = [.blue, .yellow, .green]
     private var gridItems = [
         GridItem(.fixed(150)),
@@ -43,6 +43,6 @@ struct Grid: View {
 
 struct Grid_Previews: PreviewProvider {
     static var previews: some View {
-        Grid()
+        GridView()
     }
 }

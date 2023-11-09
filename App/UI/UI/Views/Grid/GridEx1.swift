@@ -11,7 +11,7 @@ import SwiftUI
 struct GridEx1: View {
     @State private var value: Double = 1.0 // 기본값 1로 설정
     var gridItems: [GridItem] {
-        Array(repeating: .init(.flexible()), count: Int(value))
+        Array(repeating: .init(.flexible(minimum: 50)), count: Int(value))
     }
 
     var body: some View {
